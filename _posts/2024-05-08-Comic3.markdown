@@ -1,0 +1,4 @@
+---
+layout: comic-page
+---
+{% include comic-4panel.html %}

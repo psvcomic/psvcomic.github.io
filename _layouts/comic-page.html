@@ -1,0 +1,13 @@
+---
+layout: page-template
+---
+<div class="comicNav" id="comicNavTop">
+	{% include nav-arrows.html %}
+</div>
+<article>
+	{{ content }}
+</article>
+<div class="comicNav" id="comicNavBottom">
+	{% include nav-arrows.html %}
+</div>
+<div class="timestamp">{{ page.date | date: "%B %-d, %Y" }}</div>

@@ -1,0 +1,25 @@
+<div class="comicNavLeft">
+	{% if page.previous.url %}
+	<a class="comicNavButton comicNavFirst" href="{{site.posts.last.url}}" title="First">
+		<img class="comicNavArrow" src="/images/shared/arrowFirst.png" alt="Go To First">
+	</a>
+	<a class="comicNavButton comicNavPrevious" href="{{page.previous.url}}" title="Previous">
+		<img class="comicNavArrow" src="/images/shared/arrowPrevious.png" alt="Previous">
+	</a>
+	{% endif %}
+</div>
+<div class="comicNavMiddle">
+	<a class="comicNavButton comicNavRandom" href="/" title="Random">
+		<img class="comicNavArrow" src="/images/shared/random.png" alt="Random">
+	</a>
+</div>
+<div class="comicNavRight">
+	{% if page.next.url %}
+	<a class="comicNavButton comicNavNext" href="{{page.next.url}}" title="Next">
+		<img class="comicNavArrow" src="/images/shared/arrowNext.png" alt="Next">
+	</a>
+	<a class="comicNavButton comicNavLatest" href="{{site.posts.first.url}}" title="Latest">
+		<img class="comicNavArrow" src="/images/shared/arrowLatest.png" alt="Latest">
+	</a>
+	{% endif %}
+</div>

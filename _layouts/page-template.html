@@ -125,6 +125,7 @@
 		div.comicNavLeft, div.comicNavRight {
 			float: left;
 			width: 30%;
+			height: 24px;
 		}
 		
 		div.comicNavMiddle {
@@ -180,6 +181,11 @@
 		#pageFooterRight {
 			float: right;
 		}
+		
+		#pageFooterRight a {
+			text-decoration: none;
+			color: 808080;
+		}
 	</style>
 	<script>
 		function toggleMenu() {
@@ -197,7 +203,7 @@
 				<h5 class="title">
 					<a href="/" title="Home">
 						<Span>This is a Logo</Span>
-						<img src="logo.png" alt="This is a Logo">
+						<img src="/images/shared/logo.png" alt="This is a Logo">
 					</a>
 				</h5>
 				<div id="topMenu">
@@ -212,72 +218,14 @@
 			</nav>
 		</header>
 		<main>
-			<div class="comicNav" id="comicNavTop">
-				<div class="comicNavLeft">
-					<a class="comicNavButton comicNavFirst" href="/" title="First">
-						<img class="comicNavArrow" src="arrowFirst.png" alt="Go To First">
-					</a>
-					<a class="comicNavButton comicNavPrevious" href="/" title="Previous">
-						<img class="comicNavArrow" src="arrowPrevious.png" alt="Previous">
-					</a>
-				</div>
-				<div class="comicNavMiddle">
-					<a class="comicNavButton comicNavRandom" href="/" title="Random">
-						<img class="comicNavArrow" src="random.png" alt="Random">
-					</a>
-				</div>
-				<div class="comicNavRight">
-					<a class="comicNavButton comicNavNext" href="/" title="Next">
-						<img class="comicNavArrow" src="arrowNext.png" alt="Next">
-					</a>
-					<a class="comicNavButton comicNavLatest" href="/" title="Latest">
-						<img class="comicNavArrow" src="arrowLatest.png" alt="Latest">
-					</a>
-				</div>
-			</div>
-			<article>
-				
-				<div class="fullComic">
-					<img class="comic" src="FullComic.png">
-				</div>
-				<div class="stackedComic">
-					<img class="comic" src="Panel 1.png">
-					<img class="comic" src="Panel 2.png">
-					<img class="comic" src="Panel 3.png">
-					<img class="comic" src="Panel 4.png">
-				</div>
-			</article>
-			<div class="comicNav" id="comicNavBottom">
-				<div class="comicNavLeft">
-					<a class="comicNavButton comicNavFirst" href="/" title="First">
-						<img class="comicNavArrow" src="arrowFirst.png" alt="Go To First">
-					</a>
-					<a class="comicNavButton comicNavPrevious" href="/" title="Previous">
-						<img class="comicNavArrow" src="arrowPrevious.png" alt="Previous">
-					</a>
-				</div>
-				<div class="comicNavMiddle">
-					<a class="comicNavButton comicNavRandom" href="/" title="Random">
-						<img class="comicNavArrow" src="random.png" alt="Random">
-					</a>
-				</div>
-				<div class="comicNavRight">
-					<a class="comicNavButton comicNavNext" href="/" title="Next">
-						<img class="comicNavArrow" src="arrowNext.png" alt="Next">
-					</a>
-					<a class="comicNavButton comicNavLatest" href="/" title="Latest">
-						<img class="comicNavArrow" src="arrowLatest.png" alt="Latest">
-					</a>
-				</div>
-			</div>
-			<div class="timestamp">January 8, 2025</div>
+			{{ content }}
 		</main>
 		<div id="pageFooter">
 			<div id="pageFooterLeft">
-				Public Static Void © 2024–2025
+				Public Static Void © {{ site.posts.last.date | date: "%Y" }}–{{ site.posts.first.date | date: "%Y" }}
 			</div>
 			<div id="pageFooterRight">
-				<i class="fa fa-rss"></i> Subscribe via RSS
+				<a href="/feed.xml"><i class="fa fa-rss"></i> Subscribe via RSS<a>
 			</div>
 		</div>
 	</body>

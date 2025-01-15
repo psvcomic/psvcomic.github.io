@@ -29,9 +29,9 @@ url: "psvcomic.github.io" # the base hostname & protocol for your site, e.g. htt
 github_username:  psvcomic
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+# theme: minima
+# plugins:
+#   - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
