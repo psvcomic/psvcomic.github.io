@@ -1,4 +1,22 @@
 ---
 layout: comic-page
+alttext: |-4 
+    A 4 panel black, white, and grey web comic.
+    All 4 panels are framed like a news program with the title "News 42" with a news scroll below them.
+    Panel 1
+    A man and woman in suits sit at the news desk.
+    Adam: Welcome to News 42. I'm Adam Ank.
+    Kathy: I'm Kathy Kor.
+    Adam: And tonight's top story is inflation.
+    Panel 2
+    We zoom in on Kathy.
+    Kathy: Prices continue to rise at an unprecedented rate. Straining budgets and gating access to basic necessities.
+    Panel 3
+    We flip over to Adam
+    Adam: The government has vowed to tackle the problem by increasing the rate at which they sacrifice people to the dragon of capitalism.
+    Panel 4
+    We flip back over to Kathy whose frame now includes a picture in picture image of a happy dragon. She is holding a piece of paper.
+    Kathy: When reached for comment Capitalism Dragon responded: "AH HAHAHA! Good. Gooood."
+    Over the 4 panels the news scroll at the bottom read: "laims election loss due to cat videos. Supporters distracted by cute videos stayed home"
 ---
 {% include comic-4panel.html %}

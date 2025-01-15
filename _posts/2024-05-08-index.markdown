@@ -1,4 +1,17 @@
 ---
 layout: comic-page
+alttext: |-4 
+    A 4 panel black, white, and grey comic.
+    Panel 1.
+    We are zoomed in on a squirrel.
+    Squirrel: You humans are strange creatures. Always stressed. Scurrying about helter skelter in your "rat race."
+    Panel 2.
+    Squirrel: We squirrels are your opposite. Our lives are simple and stress free. Gather food. Sleep in tree. Forget where you put most of the food. It is a life of leisure.
+    Panel 3.
+    We zoom out a bit and now see a hawk swooping in to grab the squirrel.
+    Squirrel: Look upon me human. Look upon a creature more relaxed than you can ever hope to be.
+    Panel 4.
+    A happy hawk is carrying the squirrel away in its talons.
+    Squirrel: Even in this moment, I am zen.
 ---
 {% include comic-4panel.html %}
