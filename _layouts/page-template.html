@@ -1,220 +1,220 @@
 <!DOCTYPE html>
 <html>
-	<header>
+	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="alternate" type="application/rss+xml" href="/feed.xml" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	</header>
-	<style>
-		* { box-sizing: border-box; }
-	
-		body {
-			margin: 0;
-			padding: 0;
-		}
-	
-		nav .wrapper { padding: 0; }
-		nav h5 a span { display: none; }
+		<style>
+			* { box-sizing: border-box; }
 		
-		header, main, #pageFooter {
-			max-width: 1080px;
-			margin: 0 auto;
-			width: auto;
-		}
-		
-		nav {
-			max-width: 1080px;
-			position: relative;
-			overflow: hidden;
-			border-bottom: 1px solid #e5e5e5;
-		}
-		
-		nav h5.title {
-			display: inline;
-			max-width: 100%;
-			margin: 0;
-			float: left;
-		}
-		
-		nav h5.title img {
-			display: block;
-			height: 80px;
-		}
-		
-		#topMenu {
-		    float: right;
-			overflow: hidden;
-		}
-		
-		#topMenu a {
-			float: left;
-			display: block;
-			text-align: center;
-			align-content: center;
-			text-decoration: none;
-			color: #4d4d4d;
-			height: 80px;
-			padding: 0 16px;
-			font-family: Consolas,Menlo,"courier new",monospace;
-		}
-		
-		#topMenu a:hover {
-			background-color: #e5e5e5;
-		}
-		
-		#topMenu .icon {
-		    display: none;
-			width: 80px;
-		}
-		
-		article {
-			display: block;
-			max-width: 648px;
-			width: 100%;
-			margin: 0 auto;
-		}
-		
-		img.comic {
-			display: block;
-			width: 100%
-		}
-		
-		img.cSquare {
-			aspect-ratio: 1 / 1;
-		}
-		
-		img.cStacked {
-			aspect-ratio: 940 / 901;
-		}
-		
-		img.c4Titled {
-			aspect-ratio: 940 / 1020;
-		}
-		
-		img.c6Paneled {
-			aspect-ratio: 940 / 1480;
-		}
-		
-		.fullComic { display: block; }
-		.stackedComic { display: none; }
-		
-		@media screen and (max-width: 600px) {
-			.fullComic { display: none; }
-			.stackedComic { display: block; }
-			#topMenu a { display: none; }
-			#topMenu a.icon {
-				float: right;
-				display: block;
+			body {
+				margin: 0;
+				padding: 0;
 			}
-		}
 		
-		@media screen and (max-width: 600px) {
-			#topMenu.responsive {
+			nav .wrapper { padding: 0; }
+			nav h5 a span { display: none; }
+			
+			header, main, #pageFooter {
+				max-width: 1080px;
+				margin: 0 auto;
+				width: auto;
+			}
+			
+			nav {
+				max-width: 1080px;
+				position: relative;
+				overflow: hidden;
+				border-bottom: 1px solid #e5e5e5;
+			}
+			
+			nav h5.title {
+				display: inline;
+				max-width: 100%;
+				margin: 0;
+				float: left;
+			}
+			
+			nav h5.title img {
+				display: block;
+				height: 80px;
+			}
+			
+			#topMenu {
 				float: right;
+				overflow: hidden;
+			}
+			
+			#topMenu a {
+				float: left;
+				display: block;
+				text-align: center;
+				align-content: center;
+				text-decoration: none;
+				color: #4d4d4d;
+				height: 80px;
+				padding: 0 16px;
+				font-family: Consolas,Menlo,"courier new",monospace;
+			}
+			
+			#topMenu a:hover {
+				background-color: #e5e5e5;
+			}
+			
+			#topMenu .icon {
+				display: none;
+				width: 80px;
+			}
+			
+			article {
+				display: block;
+				max-width: 648px;
+				width: 100%;
+				margin: 0 auto;
+			}
+			
+			img.comic {
+				display: block;
 				width: 100%
 			}
-			#topMenu.responsive a.icon {
-				position: absolute;
-				right: 0;
-				top: 0;
+			
+			img.cSquare {
+				aspect-ratio: 1 / 1;
 			}
-			#topMenu.responsive a {
-				float: none;
+			
+			img.cStacked {
+				aspect-ratio: 940 / 901;
+			}
+			
+			img.c4Titled {
+				aspect-ratio: 940 / 1020;
+			}
+			
+			img.c6Paneled {
+				aspect-ratio: 940 / 1480;
+			}
+			
+			.fullComic { display: block; }
+			.stackedComic { display: none; }
+			
+			@media screen and (max-width: 600px) {
+				.fullComic { display: none; }
+				.stackedComic { display: block; }
+				#topMenu a { display: none; }
+				#topMenu a.icon {
+					float: right;
+					display: block;
+				}
+			}
+			
+			@media screen and (max-width: 600px) {
+				#topMenu.responsive {
+					float: right;
+					width: 100%
+				}
+				#topMenu.responsive a.icon {
+					position: absolute;
+					right: 0;
+					top: 0;
+				}
+				#topMenu.responsive a {
+					float: none;
+					display: block;
+				}
+			}
+			
+			div.comicNav {
 				display: block;
+				max-width: 648px;
+				width: 100%;
+				margin: 0 auto;
+				overflow: hidden;
 			}
-		}
-		
-		div.comicNav {
-			display: block;
-			max-width: 648px;
-			width: 100%;
-			margin: 0 auto;
-			overflow: hidden;
-		}
-		
-		#comicNavTop {
-			padding: 36px 64px 8px;
-		}
-		
-		#comicNavBottom {
-			padding: 24px 64px 36px;
-		}
-		
-		div.comicNavLeft, div.comicNavRight {
-			float: left;
-			width: 30%;
-			height: 24px;
-		}
-		
-		div.comicNavMiddle {
-			float: left;
-			width: 40%;
-			text-align: center;
-		}
-		
-		div.comicNavRight {
-			text-align: right;
-		}
-		
-		a.comicNavButton {
-			text-decoration: none;
-		}
-		
-		img.comicNavArrow {
-			display: inline-block;
-			height: 24px;
-		}
-		
-		.comicNavPrevious {
-			margin-left: 24px;
-		}
-		
-		.comicNavNext {
-			margin-right: 24px;
-		}
-		
-		.timestamp {
-			width: 100%;
-			text-align: center;
-			font-size: 0.75em;
-			font-family: Consolas,Menlo,"courier new",monospace;
-			color: 808080;
-			margin-bottom: 24px;
-		}
-		
-		#pageFooter {
-			overflow: hidden;
-			border-top: 1px solid #e5e5e5;
-			font-family: Consolas,Menlo,"courier new",monospace;
-			color: 808080;
-			font-size: 0.6em;
-			padding: 24px;
-			margin-top: auto;
-		}
-		
-		#pageFooterLeft {
-			float: left;
-		}
-		
-		#pageFooterRight {
-			float: right;
-		}
-		
-		#pageFooterRight a {
-			text-decoration: none;
-			color: #808080;
-		}
-	</style>
-	<script>
-		function toggleMenu() {
-			var x = document.getElementById("topMenu");
-			if (x.className === "") {
-				x.className = "responsive";
-			} else {
-				x.className = "";
+			
+			#comicNavTop {
+				padding: 36px 64px 8px;
 			}
-		} 
-	</script>
+			
+			#comicNavBottom {
+				padding: 24px 64px 36px;
+			}
+			
+			div.comicNavLeft, div.comicNavRight {
+				float: left;
+				width: 30%;
+				height: 24px;
+			}
+			
+			div.comicNavMiddle {
+				float: left;
+				width: 40%;
+				text-align: center;
+			}
+			
+			div.comicNavRight {
+				text-align: right;
+			}
+			
+			a.comicNavButton {
+				text-decoration: none;
+			}
+			
+			img.comicNavArrow {
+				display: inline-block;
+				height: 24px;
+			}
+			
+			.comicNavPrevious {
+				margin-left: 24px;
+			}
+			
+			.comicNavNext {
+				margin-right: 24px;
+			}
+			
+			.timestamp {
+				width: 100%;
+				text-align: center;
+				font-size: 0.75em;
+				font-family: Consolas,Menlo,"courier new",monospace;
+				color: 808080;
+				margin-bottom: 24px;
+			}
+			
+			#pageFooter {
+				overflow: hidden;
+				border-top: 1px solid #e5e5e5;
+				font-family: Consolas,Menlo,"courier new",monospace;
+				color: 808080;
+				font-size: 0.6em;
+				padding: 24px;
+				margin-top: auto;
+			}
+			
+			#pageFooterLeft {
+				float: left;
+			}
+			
+			#pageFooterRight {
+				float: right;
+			}
+			
+			#pageFooterRight a {
+				text-decoration: none;
+				color: #808080;
+			}
+		</style>
+		<script>
+			function toggleMenu() {
+				var x = document.getElementById("topMenu");
+				if (x.className === "") {
+					x.className = "responsive";
+				} else {
+					x.className = "";
+				}
+			} 
+		</script>
+	</head>
 	<body>
 		<header>
 			<nav>
