@@ -1,0 +1,40 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function getRandomPage() {
+	let pages = [{% for post in site.posts %}
+	"{{ post.url }}"{% unless post.previous == nil %},{% endunless %} 
+	{% endfor %}];
+	
+	if(pages.length < 2) {
+		return '/';
+	}
+	
+	let sourcePage = document.referrer.replace(/^https?:\/\/[^\/]+/i, '');
+	
+	// The first page will be the latest post. If we didn't come from
+	// a specific post we probably came from the home page so just
+	// select a post other than the most recent.
+	if(sourcePage.length < 2) {
+		return pages[Math.floor(Math.random() * (pages.length - 1)) + 1];
+	}
+	
+	let selectedPage = '/';
+	do {
+		selectedPage = pages[Math.floor(Math.random() * pages.length)];
+	}
+	while(selectedPage.startsWith(sourcePage));
+	
+	return selectedPage;
+}
+
+location.replace(getRandomPage());
+</script>
+</head>
+<body>
+</body>
+</html>
