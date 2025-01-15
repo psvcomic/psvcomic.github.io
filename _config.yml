@@ -27,6 +27,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "psvcomic.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  psvcomic
+social_link: https://linktr.ee/psvcomic
+patreon_link: https://www.patreon.com/psvcomic
 
 # Build settings
 # theme: minima
