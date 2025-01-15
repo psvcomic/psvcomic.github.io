@@ -7,7 +7,7 @@ layout: null
 <script>
 function getRandomPage() {
 	let pages = [{% for post in site.posts %}
-	"{{ post.url }}"{% unless post.previous == nil %},{% endunless %} 
+	"{{post.date | date: "/%Y/%m/%d/" }}"{% unless post.previous == nil %},{% endunless %} 
 	{% endfor %}];
 	
 	if(pages.length < 2) {
