@@ -14,7 +14,7 @@ layout: null
     {% for post in site.posts limit:1000 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>&lt;img alt=&quot;{{ post.alttext | escape | xml_escape}}&quot; src=&quot;{{ site.url }}/images/comics/{{ post.date | date: "%Y-%m-%d" }}/FullComic.png&quot; /&gt;</description>
+        <description>&lt;img alt=&quot;{{ post.alttext | escape | xml_escape}}&quot; src=&quot;{{ site.url }}/assets/images/comics/{{ post.date | date: "%Y/%m/%d" }}/FullComic.png&quot; /&gt;</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
