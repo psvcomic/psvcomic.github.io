@@ -3,9 +3,6 @@
 	<head>
 		<meta charset="utf-8">
 		
-		<title>{{ site.title | escape }} - {{ page.title | escape }}</title>
-		<meta name="description" content="{{ site.description | escape}}">
-		
 		<link rel="icon" type="image/png" href="/images/icons/favicon-96x96.png" sizes="96x96" />
 		<link rel="icon" type="image/png" href="/images/icons/web-app-manifest-192x192.png" sizes="192x192" />
 		<link rel="icon" type="image/svg+xml" href="/images/icons/favicon.svg" />
@@ -13,6 +10,15 @@
 		<link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png" />
 		<link rel="manifest" href="/images/icons/site.webmanifest" />
 		<meta name="apple-mobile-web-app-title" content="{{ site.title | escape }}">
+		
+		<title>{{ site.title | escape }} - {{ page.title | escape }}</title>
+		<meta name="description" content="{{ site.description | escape}}">
+		
+		<meta property="og:title" content="{{ site.title | escape }} - {{ page.title | escape }}" />
+		<meta property="og:description" content="{{ site.description | escape }}">
+		<meta property="og:url" content="{{ site.url }}{{page.date | date: "/%Y/%m/%d/" }}" />
+		<meta property="og:image" content="{{ site.url }}/images/comics/{{ page.date | date: "%Y-%m-%d" }}/FullComic.png" />
+		<meta name="twitter:card" content="summary_large_image">
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" />
