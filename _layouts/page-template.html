@@ -179,6 +179,18 @@
 				float: right;
 			}
 			
+			{% if page.previous.url == nil %}
+			div.comicNavLeft {
+				visibility: hidden;
+			}
+			{% endif %}
+			
+			{% if page.next.url == nil %}
+			div.comicNavRight {
+				visibility: hidden;
+			}
+			{% endif %}
+			
 			a.comicNavButton {
 				text-decoration: none;
 			}
