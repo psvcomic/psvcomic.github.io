@@ -1,5 +1,6 @@
 ---
 layout: comic-page
+title: The Dark Arts
 alttext: |-4 
     A 4 panel black, white and grey comic.
     Panel 1: A man with long hair and a bear is gesticulating angrily.

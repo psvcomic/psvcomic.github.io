@@ -12,9 +12,8 @@ layout: null
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% for post in site.posts limit:1000 %}
-    {% if post.sitemap != false %} 
       <item>
-        <title>Public Static Void - {{ post.date | date: "%B %-d, %Y" }}</title>
+        <title>{{ post.title | xml_escape }}</title>
         <description>&lt;img alt=&quot;{{ post.alttext | escape | xml_escape}}&quot; src=&quot;{{ site.url }}/images/comics/{{ post.date | date: "%Y-%m-%d" }}/FullComic.png&quot; /&gt;</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
@@ -26,7 +25,6 @@ layout: null
         <category>{{ cat | xml_escape }}</category>
         {% endfor %}
       </item>
-      {% endif %}
     {% endfor %}
   </channel>
 </rss>
