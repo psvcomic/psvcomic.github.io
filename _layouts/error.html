@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>{{ site.title | escape }} - Error {{ page.errorCode }}</title>
+		
+		{% include icon_links.html %}
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<style>
+			* { box-sizing: border-box; }
+			
+			body {
+				margin: 0;
+			}
+			
+			body div {
+				max-width: 648px;
+				margin: 0 auto;
+				width: auto;
+				overflow: hidden;
+			}
+		
+			#eCode, #eMessage {
+				font-family: Consolas,Menlo,"courier new",monospace;
+				text-align: center;
+			}
+			
+			#eCode {
+				margin-top: 45px;
+				font-size: 4em;
+			}
+			
+			#eMessage {
+				font-size: 1.5em;
+			}
+			
+			#iError {
+				color: transparent;
+				display: block;
+				width: 100%;
+				max-width: 450px;
+				margin: 0 auto;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<div id="eCode">{{ page.errorCode }}</div>
+			<div id="eMessage">{{page.errorMessage }}<div>
+			<img id="iError" src="/assets/images/shared/error-man.png" alt="A man with a wrench looking up at the error message." />
+		</div>
+	</body>
+</html>
