@@ -1,0 +1,18 @@
+---
+layout: comic-page
+title: RomeKONG and JuliZILLA
+alttext: |-4 
+    A 4 panel black, white, and grey comic.
+    Panel 1.
+    A giant monkey and a giant lizard and staring into each other's eyes. Their hands touch. The monkey is dressed like a 50s greaser and the lizard has long hair and is wearing a dress. Narrator: "The Kongs and the Zillas were at war! Romekong and Julizilla met in battle, and fell in love.
+    Panel 2.
+    Romekong and Julizilla are lying dead at the foot of a mountain. Julizilla has been stabbed and Romekong has drunken poison. The the background Mothra, dressed as a priest, is saying "As beans." Narrator: The moth priest married them in secret and they tried to flee. But both died in a tragic misunderstanding.
+    Panel 3.
+    Another giant lizard, this one in a pinstripe suite and fedora with a cigar in it's mouth, is hugging another giant monkey, this one with an eye patch, scar, and leather jacket with "KONG" written above some bananas on the back. Both look distraught. Behind them, a city burns. Narrator: "Their parents RAGED! Before reconciling over their shared grief."
+    Panel 4.
+    A man with messy hair (Jim) has his feet up on the desk of a movie producer. He's leaning back in his chair gesturing excitedly. The producer has their head on their desk looking distraught.
+    Jim, jubilant: And that's my gangster kaiju adaptation of Romeo and Juliet.
+    Producer: 300 million dollars. I spent 300 million dollars on this. What have I been doing with my life?
+---
+{% include comic-4panel.html %}
+<a href="https://www.patreon.com/posts/bonus-wallpapers-112465469?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link"><img class="comic cSquare" src="/assets/images/comics/{{ page.date | date: "%Y/%m/%d" }}/Wallpaper Panel.png"></a>

@@ -1,0 +1,24 @@
+---
+layout: comic-page
+title: "Spooktober: Sufficiently Advanced Magic"
+alttext: |-4 
+    A 4 panel black, white, and grey comic featuring a witch and a man with messy hair (Jim). The two are in the witches hut in front of a window looking out on the night sky. Below the window is the witch's cauldron.
+    Panel 1.
+    The witch is holding a broom.
+    Witch: This enchanted broom can sweep my hut all on its own!
+    Jim: Sweet! Just like those fancy vacuums!
+    Panel 2.
+    The witch is holding a skull with fangs and a pentagram on its forehead.
+    Witch: This possessed demon skull gives me access to knowledge both ancient and arcane.
+    Jim: Wow! Just like Wikipedia.
+    Panel 3.
+    The witch is holding a sphere with starlight swirling inside. Jim is looking at his phone.
+    Witch: With this orb I can contact my sisters across vast distances.
+    Jim: That reminds me, I owe my parents a video call.
+    Panel 4.
+    The witch is gesturing angrily.
+    Witch, frustrated: My hut can sprout chicken legs and roam the country side!
+    Jim, sad: Oh. I live out of my van too.
+    Witch: GRRRRR! Just be amazed damn you!
+---
+{% include comic-4panel.html %}

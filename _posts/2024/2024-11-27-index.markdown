@@ -1,0 +1,21 @@
+---
+layout: comic-page
+title: How to Change a Government
+alttext: |-4 
+    A 4 panel black, white, and grey comic featuring a robot and a man with long hair, a beard, and glasses (Programmer).
+    Panel 1.
+    The robot approaches Programmer who is sitting at a computer.
+    Robot: Do you truly fear your human government will become a dictatorship.
+    Programmer: I sure do.
+    Panel 2.
+    Close up on Programmer.
+    Programmer: A government is just a machine made of people. If you can replace enough of those people you can change what the machine does.
+    Panel 3.
+    We zoom back out.
+    Robot, looking horrified: That's terrifying!
+    Programmer: Yup.
+    Panel 4.
+    Robot, looking grossed out: How is the machine built? Are the bones fused or is this more of a slurry situation?
+    Programmer, surprised: Oh, nothing like that! Though many politicians do seem to be missing their spines...
+---
+{% include comic-4panel.html %}

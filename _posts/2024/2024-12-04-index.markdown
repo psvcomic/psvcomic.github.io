@@ -1,0 +1,22 @@
+---
+layout: comic-page
+title: Terms of Service
+alttext: |-4 
+    A 4 panel black, white, and grey comic.
+    Panel 1.
+    A man with messy hair (Jim) is talking to a woman with glasses and a ponytail (Hannah) who is siting at a computer.
+    Jim, delighted: I can't believe how many cool websites and games you can access for free!
+    Hannah: Have you read the terms of service?
+    Jim: Of course not!
+    Panel 2.
+    Close up on Hannah looking intensely into Jim's startled eyes.
+    Hannah, concerned: YOU FOOL!!! If you aren't paying for the product you are the product! You don't know what you've given away!
+    Panel 3.
+    One week later there is a knock at Jim's door. He is approaching it with a quizzical look. Through the door's windows we can see a boxy silhouette with antennae.
+    Panel 4.
+    The door has been opened to a robot carrying a chain saw.
+    Robot, delighted: Hello! I've come to collect your skeleton.
+    Jim, distressed: But I'm still using it.
+    Robot: Not according to our terms of service!
+---
+{% include comic-4panel.html %}

@@ -1,0 +1,20 @@
+---
+layout: comic-page
+title: A Peer Reviewed Analysis of Santa
+alttext: |-4 
+    A 4 panel black, white, and grey comic featuring a professor giving a presentation to his peers.
+    Panel 1.
+    The professor is standing beside a slide that reads "A Peer Reviewed Analysis of Santa".
+    Professor: For over a century we have assumed that Santa rewards goodness. But the data proves this patently false.
+    Panel 2.
+    The slide has switched to a graph showing that number of presents received increases with wealth.
+    Professor: Across all age groups, we see that Santa rewards wealth. "Goodness" is barely a rounding error.
+    Panel 3.
+    We now see the professor viewed in a snow globe.
+    Professor: In fact, we see this pattern repeat across all morality. Moral actions can attract modest pro-social benefits. But the greatest rewards go to rich ass holes who eagerly burn orphans for fuel.
+    Panel 4.
+    We pull back to see Santa on a festive throne, surrounded by treasure, angrily gesturing at the snow globe. An elf stands beside him examining a piece of paper.
+    Santa: Randall, add that researcher to the "Naughty" list.
+    Elf: He works in academia sir. He's already there.
+---
+{% include comic-4panel.html %}

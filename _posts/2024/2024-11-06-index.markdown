@@ -1,0 +1,18 @@
+---
+layout: comic-page
+title: A Harsh Judge
+alttext: |-4 
+    A black, white, and grey comic featuring a cat.
+    Panel 1.
+    The cat is on a kitchen counter staring at a bowl.
+    Cat: Well, well, well. Mr. Bowl. You stand accused of being a bowl.
+    Panel 2.
+    The cat raises it's paw.
+    Cat, angrily: Also, you are round and I hate you!
+    Panel 3.
+    The cat bats the bowl off the counter and it crashes to the floor.
+    Panel 4.
+    The cat is now on the other side of the counter staring at a mug.
+    Cat: Well, well, well. Ms. Mug...
+---
+{% include comic-4panel.html %}

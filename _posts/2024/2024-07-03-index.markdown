@@ -1,0 +1,23 @@
+---
+layout: comic-page
+title: The AI Dream
+alttext: |-4 
+    A 4 panel black, white, and grey comic.
+    Panel 1.
+    The panel's border is wavy like the edges of a cloud. A man with a top hat and monocle (Richman) is standing by a machine with a piece of paper taped to it that says "Money O Matic."
+    Richman: Richman AI is proud to present the Money-O-Matic. We just feed other people's work into the top here and cash comes spewing out the side!
+    Panel 2.
+    This panel's edges are also wavy. A man in a beret and paint stained coat (Artist) is kneeling before Richman.
+    Artist, in despair: But I don't want you to feed my work into your machine.
+    Richman: Too bad! This is completely legal and I don't owe you a cent!.
+    Panel 3.
+    We see Richman sleeping in bed with thought bubbles indicating the previous two panels were his dream.
+    Richman, muttering happily: haha... stupid peasants... can't stop me... so rich...
+    Voice from off panel: Sir! Sir, wake up!
+    Panel 4.
+    Richman is standing before a man in a suite (Lackey).
+    Richman: WHAT!
+    Lackey: It's the Money-O-Matic sir! It's consuming more cash than it creates!
+    Richman: You have your orders! Keep shovelling money and priceless artworks into the furnace until it works!.
+---
+{% include comic-4panel.html %}

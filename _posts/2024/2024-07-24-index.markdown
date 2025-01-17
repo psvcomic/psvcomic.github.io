@@ -1,0 +1,19 @@
+---
+layout: comic-page
+title: A Brave Guardian
+alttext: |-4 
+    A 4 panel black, white, and grey comic.
+    Panel 1.
+    A happy looking cat is sitting on the lap of a man on a couch receiving pets.
+    Cat: We cats hear the way you humans speak of us. You think us cute idiots. Selfish goofs.
+    Panel 2.
+    Cut to the cat lounging on the floor in a patch of sunlight.
+    Cat: Nothing could be further from the truth. We are your sworn protectors. Your last line of defence against an enemy you seem incapable of perceiving.
+    Panel 3.
+    Cut to the cat glaring at it's reflection in a mirror.
+    Cat: The things that lurk in mirrors.
+    Panel 4.
+    The cat attacks it's own reflection.
+    Cat, angrily: DIE CRETIN!!!
+---
+{% include comic-4panel.html %}

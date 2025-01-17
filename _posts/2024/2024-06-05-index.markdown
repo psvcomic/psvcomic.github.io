@@ -1,0 +1,19 @@
+---
+layout: comic-page
+title: Wait a Minute
+alttext: |-4 
+    A 4 panel black, white, and grey comic.
+    Panel 1.
+    A man with messy hair (Jim) is looking up and gesturing.
+    Jim: Capitalism Dragon, why must we sacrifice ourselves on your altar?
+    Panel 2.
+    We zoom out to see a dragon standing before a cliff with an alter where people are sacrificed to it. Jim can be seen standing before it.
+    Dragon: So that your kind may look upon my shining scales and glittering hoard and dream of one day being as I am.
+    Panel 3.
+    We zoom back down to Jim.
+    Jim: But those are just dreams. I'm never going to actually be a dragon.
+    Panel 4.
+    We zoom back out.
+    Dragon: ...Get on the altar.
+---
+{% include comic-4panel.html %}

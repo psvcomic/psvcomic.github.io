@@ -1,0 +1,19 @@
+---
+layout: comic-page
+title: Lost in Translation
+alttext: |-4 
+    A 4 panel black, white, and grey comic.
+    Panel 1.
+    We are zoomed in on a raven in a city park.
+    Raven: I am a raven. A creature of prophesy. And I bring a dire warning.
+    Panel 2.
+    The raven spreads it's wings and adopts a serious expression.
+    Raven: The forests burn and the oceans boil. You poison the air and choke the sea. It is never enough. In your hunger for more you wear the very earth to dust. As long as these shadows remain we all...
+    Panel 3.
+    We zoom out to see a man with messy hair (Jim) filming the raven with his phone. The raven is just cawing angrily.
+    Jim: Well look at you Mr. Crow. Havin' a good squawk? Smile for the internet.
+    Panel 4.
+    The raven is flying after Jim pecking his head as he runs away, phone in hand.
+    Jim: Ow ow ow ow ow!
+---
+{% include comic-4panel.html %}

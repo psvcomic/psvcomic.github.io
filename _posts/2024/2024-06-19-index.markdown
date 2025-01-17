@@ -1,0 +1,17 @@
+---
+layout: comic-page
+title: Bad News Bear
+alttext: |-4 
+    A 4 panel black, white, and grey comic featuring a bear wearing a fedora with the word "Press" written on a piece of paper shoved into the band. It has a pencil in it's mouth and is holding a notebook.
+    Panel 1.
+    Bear: Been workin' this bear nearly 40 years. Seen some things.
+    Panel 2.
+    The bear looks down at it's notebook.
+    Bear: It weighs a bear down. The wear and grind. The slow descents. The fast tragedies. World ain't as dark as we paint it but you know what they say. If it bleeds it leads. Job's a job.
+    Panel 3.
+    The bear looks up pensively.
+    Bear: Tried writing some good news once. Didn't work. Couldn't make the words fit.
+    Panel 4.
+    Bear: Guess I'm just not that kind of bear.
+---
+{% include comic-4panel.html %}

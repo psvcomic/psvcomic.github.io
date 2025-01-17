@@ -1,0 +1,20 @@
+---
+layout: comic-page
+title: A Simple Test
+alttext: |-4 
+    A 4 panel black, white, and grey comic.
+    Panel 1.
+    A man with long hair, a beard, and glasses (Programmer) is talking to a woman with glasses and a ponytail (Hannah) in an office. Hannah is looking thoughtful.
+    Programmer: Characters in Greek myths are such idiots. They constantly fail the simplest of trials. Don't open this box. Don't look behind you. Easy stuff.
+    Panel 2:
+    Hannah: You think you could do better?
+    Programmer: Of course.
+    Panel 3:
+    Subtitled "The next day..." Hannah is walking away from Programmer who is holding a box.
+    Programmer: You're a MONSTER!
+    Hannah: Hahahaha! Good luck.
+    Panel 4:
+    We zoom in on programmer who is angrily looking at the box titled "Pandora Cookies. Forbiddenly Delicious."
+    Programmer: Dammit!
+---
+{% include comic-4panel.html %}

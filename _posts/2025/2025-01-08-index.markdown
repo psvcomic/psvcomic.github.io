@@ -1,0 +1,19 @@
+---
+layout: comic-page
+title: They've Got This
+alttext: |-4 
+    A 4 panel black, white, and grey comic.
+    Panel 1.
+    We are close up on a moth's face at night.
+    Moth: For centuries we moths have fought a ware against night time glowies. The lights that defile the sanctity of these nocturnal hours with their brightness.
+    Panel 2.
+    We zoom out a little and can see that the moth is talking to a few other moths.
+    Moth: Tonight we bring that fight to our most ancient enemy! The ultimate glowy!
+    Panel 3.
+    We pull out even more to see the moth is speaking to a whole host of moths. The moon shines above.
+    Moth: THE MOON!!!
+    Panel 4.
+    We pull back as an army of moths flies into the air.
+    Moth: CHARGE!!!
+---
+{% include comic-4panel.html %}

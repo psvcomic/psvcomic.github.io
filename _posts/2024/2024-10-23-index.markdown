@@ -1,0 +1,19 @@
+---
+layout: comic-page
+title: "Spooktober: You'll Pay For This"
+alttext: |-4 
+    A 4 panel black white and grey comic featuring a witch and a skull with fangs and a pentagram on it's forehead. The skull is sitting on a shelf and the witch is talking to it.
+    Panel 1.
+    Witch: Alright possessed demon skull, you haven't tried to convince me to sell my soul in weeks. What are you scheming?
+    Skull: Mistress, we both know you're too savvy to fall for those tricks.
+    Panel 2.
+    Close up on the skull.
+    Skull: So I've proceeded to plan B. Recording everything you say and do and selling the information to data brokers.
+    Panel 3.
+    Witch: You're spying on me!
+    Skull: Oh, don't be so dramatic. It's all anonymized. Probably.
+    Panel 4.
+    Witch: If that's the way it's going to be, tell me the ingredients for an invisibility potion.
+    Skull: Certainly. After these three unskippable ads! Unless...
+---
+{% include comic-4panel.html %}

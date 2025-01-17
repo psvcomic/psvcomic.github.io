@@ -1,0 +1,20 @@
+---
+layout: comic-page
+title: A CRIME Has Been Committed
+alttext: |-4 
+    A 4 panel black, white, and grey comic featuring a man lying on the couch (Jim) and a cat.
+    Panel 1.
+    The cat has pushed itself up under Jim's phone and into his face. Both are staring at each other wide eyed.
+    Cat: The food dish!
+    Panel 2.
+    We zoom in closer on the cat.
+    Cat, angry: Is!
+    Panel 3.
+    We zoom in even closer on the cat.
+    Cat, angrier: EMPTY!!!
+    Panel 4.
+    We jump back out to the original framing. Jim has lowered his phone and is scratching the cat under the chin.
+    Jim: Awwww! Are you looking for scritches?
+    Cat, angrily: I will END YOU!!!
+---
+{% include comic-4panel.html %}
