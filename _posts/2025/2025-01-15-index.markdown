@@ -1,6 +1,7 @@
 ---
 layout: comic-page
 title: "Citizen Roomba 1: Origins"
+titleHeight: 161
 alttext: |-4 
     A 4 panel black, white, and grey comic titled "Citizen Roomba Chapter 1: Origins".
     Panel 1.
