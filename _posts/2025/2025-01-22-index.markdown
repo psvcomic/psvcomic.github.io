@@ -1,0 +1,19 @@
+---
+layout: comic-page
+title: "Citizen Roomba 2: Litter"
+titleHeight: 153
+alttext: |-4 
+    A 4 panel black, white, and grey comic titled "Citizen Roomba Chapter 2: Litter". It features a woman with wavy hair (Jane).
+    Panel 1.
+    Jane is walking in a city park, looking at her phone, and tosses an empty soft drink over he shoulder, missing the garbage can.
+    Panel 2.
+    We zoom in on Jane as the sound of a vacuum cleaner starts up.
+    Jane, panicked: Oh no.
+    Panel 3.
+    A Roomba is heading down the park path towards the empty soft drink as Jane dives to intercept it.
+    Jane: No no NO! NO!!!
+    Panel 4.
+    Jane has successfully placed the soft drink in the garbage can and is leaning against the can looking relieved as the Roomba continues on its journey.
+    Jane: Whew! That was close.
+---
+{% include comic-4panel-titled.html %}
