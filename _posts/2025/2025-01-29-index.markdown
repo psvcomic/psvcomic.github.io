@@ -1,0 +1,23 @@
+---
+layout: comic-page
+title: "Citizen Roomba 3: Theft"
+titleHeight: 153
+alttext: |-4 
+    A 4 panel black, white, and grey comic titled "Citizen Roomba Chapter 3: Theft." It features a man with messy hair (Jim) and a man with a toque, mask, and striped clothes (Mugger).
+    Panel 1.
+    Mugger has backed Jim up against a brick wall and is menacing him with a knife.
+    Mugger: Hands up! This is a mugging!
+    Jim: Oh! Uh. Okay.
+    Panel 2.
+    The sounds of a vacuum approach from off panel.
+    Jim, confused: What's that?
+    Mugger, surprised: Uh oh.
+    Panel 3.
+    We zoom out and the mugger is gesturing towards an approaching Roomba looking sad. Jim remains against the wall looking confused.
+    Mugger: No. Please. You're right. This was wrong. I'll never do it again, I swear!
+    Panel 4.
+    The mugger flees off panel pursued by the Roomba.
+    Mugger: AAAAAAHH!!!
+    Jim: Thank you?
+---
+{% include comic-4panel-titled.html %}
