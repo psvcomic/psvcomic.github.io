@@ -48,16 +48,16 @@
          rx="0.3891938"
          ry="0.39077389" />
       <ellipse
-         cx="-13.561395"
-         cy="97.467522"
+         cx="-13.492248"
+         cy="97.51815"
          id="circle5"
          transform="matrix(0,-1,0.8660252,0.50000035,0,0)"
          style="clip-rule:evenodd;fill-rule:evenodd;stroke-width:0.295744;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;stroke-dasharray:none"
          rx="0.3891938"
          ry="0.39077389" />
       <ellipse
-         cx="-11.717199"
-         cy="99.319206"
+         cx="-11.786345"
+         cy="99.268578"
          id="circle6"
          transform="matrix(0,-1,0.8660252,0.50000035,0,0)"
          style="clip-rule:evenodd;fill-rule:evenodd;stroke-width:0.295744;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;stroke-dasharray:none"
@@ -84,29 +84,29 @@
          transform="matrix(0.87415709,-0.48564326,0.87415709,0.48564326,0,0)"
          style="clip-rule:evenodd;fill-rule:evenodd;stroke-width:0.298685;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;stroke-dasharray:none" />
       <circle
-         cx="-12.367095"
-         cy="109.65847"
+         cx="-12.265777"
+         cy="109.75978"
          r="0.404796"
          id="circle10"
          transform="matrix(0.87415709,-0.48564326,0.87415709,0.48564326,0,0)"
          style="clip-rule:evenodd;fill-rule:evenodd;stroke-width:0.298685;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;stroke-dasharray:none" />
       <circle
-         cx="-111.57627"
-         cy="-12.367106"
+         cx="-111.44862"
+         cy="-12.239467"
          r="0.404796"
          id="circle11"
          transform="matrix(-0.87415709,-0.48564326,0.87415709,-0.48564326,0,0)"
          style="clip-rule:evenodd;fill-rule:evenodd;stroke-width:0.298685;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;stroke-dasharray:none" />
       <circle
-         cx="-10.448968"
-         cy="111.5766"
+         cx="-10.550286"
+         cy="111.4753"
          r="0.404796"
          id="circle12"
          transform="matrix(0.87415709,-0.48564326,0.87415709,0.48564326,0,0)"
          style="clip-rule:evenodd;fill-rule:evenodd;stroke-width:0.298685;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;stroke-dasharray:none" />
       <circle
-         cx="-10.448968"
-         cy="109.65847"
+         cx="-10.576608"
+         cy="109.78612"
          r="0.404796"
          id="circle13"
          transform="matrix(0.87415709,-0.48564326,0.87415709,0.48564326,0,0)"
