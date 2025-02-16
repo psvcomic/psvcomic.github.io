@@ -1,0 +1,28 @@
+---
+layout: comic-page
+title: "Citizen Roomba 3: Theft"
+titleHeight: 149
+alttext: |-4 
+    A 6 panel black, white, and grey comic titled "Citizen Roomba Chapter 6: Justice".
+    Panel 1.
+    A man in a suite (Mayor) is standing at a podium with a microphone. A city skyline is visible in the background.
+    Mayor: "And that's why I've decided to pursue the exiting economic opportunity that allows Richman Sludge to dump sludge in our river.
+    At the bottom we see the sound of an approaching Roomba followed by a light bump.
+    Panel 2.
+    We zoom back to see the mayor's podium is on a street with a crowd in front of him. He's looking curiously at a Roomba at his feet.
+    Mayor: What the... Where did you come from?
+    Panel 3.
+    A cop burst onto the scene.
+    Cop: Caught you! Mr. Mayor, you're under arrest for failing to charge an adorable house hold appliance!
+    Mayor: That isn't a crime.
+    Panel 4.
+    We zoom in on the cop as a second one leans in and whispers in his ear.
+    Cop: Oh, right! Also we have proof you took bribes from Richman Sludge.
+    Panel 5.
+    The cop is escorting the mayor off panel. The Roomba sits quietly at the bottom.
+    Mayor: And I would have gotten away with it too if it wasn't for that meddling vacuum!
+    Cop: Yeah yeah. Move along buster.
+    Panel 6.
+    The Roomba starts moving again and the crowd burst into applause.
+---
+{% include comic-6panel-titled.html %}
