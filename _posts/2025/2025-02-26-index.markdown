@@ -1,0 +1,18 @@
+---
+layout: comic-page
+title: "It's Mine Now"
+alttext: |-4 
+    A 4 panel black, white, and grey comic.
+    Panel 1.
+    We are zoomed in on a squirrel holding a peanut.
+    Squirrel: Owning a thing, this is an illusion. Ownership is not part of the fundamental state of the universe. It is merely a social agreement between you and your community.
+    Panel 2.
+    Squirrel: And if your community feels you own more than your fair share they can simply change the agreement.
+    Panel 3.
+    We zoom out to see a second squirrel looking at the first one eagerly.
+    Second Squirrel: Sooo... can I have my peanut back?
+    Panel 4.
+    First squirrel: No.
+    Second squirrel is exasperated.
+---
+{% include comic-4panel.html %}
