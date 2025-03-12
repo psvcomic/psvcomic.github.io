@@ -1,6 +1,6 @@
 ---
 layout: comic-page
-title: "Citizen Roomba 3: Theft"
+title: "Citizen Roomba 6: Justice"
 titleHeight: 149
 alttext: |-4 
     A 6 panel black, white, and grey comic titled "Citizen Roomba Chapter 6: Justice".

@@ -1,6 +1,6 @@
 ---
 layout: comic-page
-title: "It's Mine Now"
+title: "Mon Mothra Adventures: Royal Rumble"
 alttext: |-4 
     A 6 panel black, white, and grey comic.
     Panel 1.

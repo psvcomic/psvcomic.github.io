@@ -1,6 +1,6 @@
 ---
 layout: comic-page
-title: "Citizen Roomba 3: Theft"
+title: "Citizen Roomba 5: The End?"
 titleHeight: 145
 alttext: |-4 
     A 4 panel black, white, and grey comic titled "Citizen Roomba Chapter 5: The End?"

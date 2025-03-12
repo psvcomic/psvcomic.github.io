@@ -1,6 +1,6 @@
 ---
 layout: comic-page
-title: "It's Mine Now"
+title: "Listening While Rich"
 alttext: |-4 
     A 4 panel black, white, and grey comic featuring a man in a monocle and top hat (Richman).
     Panel 1.
