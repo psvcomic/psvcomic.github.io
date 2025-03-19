@@ -1,0 +1,20 @@
+---
+layout: comic-page
+title: "Just a Clock"
+alttext: |-4 
+    A 4 panel black, white, and grey web comic featuring a man with messy hair (Jim) and a woman with a ponytail and glasses (Hannah) at an office water cooler.
+    Panel 1.
+    Jim: I've been enjoying this new farming game, but it's annoying having to wait for the crops to grow in real time.
+    Hannah: Just change your system clock.
+    Panel 2.
+    Jim, inquisitive: Explain.
+    Hannah: These games use your computer's clock to track time. Change the clock and your crops will grow instantly.
+    Panel 3.
+    Jim, aghast: *gasp* Is that allowed?
+    Hannah, amused: It's just a clock. Play your game how you want.
+    Panel 4.
+    Titled "Later..." We cut to Jim's home. Jim is being held by 2 cops with the word "Time Force" written on their body armor. A third is prodding him with a night stick. A portal swirls in the background.
+    Jim, confused: But... it was just a clock.
+    Cop, angrily: Just a clock?! Your people make me sick.
+---
+{% include comic-4panel.html %}
