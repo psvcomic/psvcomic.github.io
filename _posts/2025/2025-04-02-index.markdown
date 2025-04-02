@@ -1,0 +1,29 @@
+---
+layout: comic-page
+title: "Not a Future Worth Fighting For"
+alttext: |-4 
+    A 6 panel black, white, and grey comic featuring a pair of time cops wearing helmets with clocks vests with "Time Force" written on them. One is bald with a moustache (Moustache Cop) and the other has messy hair (Lead Cop). They are interacting with a woman with a pony tail and glasses at a computer (Hannah).
+    Panel 1.
+    The time cops are emerging from the portal approaching a surprised Hannah in her office.
+    Lead Cop: Quick, you need to come with us! Your timeline has been altered!
+    Hannah: What!? How?!
+    Panel 2.
+    Close up on Lead Cop.
+    Lead Cop: In this timeline you pursued your dreams and became a successful software engineer.
+    Panel 3.
+    Close up continues. Lead cop has their hand on Hannah's shoulder and is gesturing in front of them as though painting a picture of a different life.
+    Lead Cop: But in your original timeline, you bounced aimlessly between shitty jobs until you joined the Time Force!
+    Panel 4.
+    We zoom back out to the full scene.
+    Hannah, skeptical: And then I did something important?
+    Lead Cop: No. You were a secretary. You were miserable and bad at your job.
+    Moustache Cop: But you made GREAT coffee!
+    Panel 5.
+    Cut down to the lead cop and Hannah.
+    Lead Cop, intense: And without that great coffee we will, apparently, fail to stop a heinous time criminal.
+    Hannah: Oooookay. So what was their crime? Is their crime? Will be their crime?
+    Panel 6.
+    Lead Cop: We already told you. They altered your time line!
+    Hannah: Yeah... we're done here.
+---
+{% include comic-6panel.html %}
