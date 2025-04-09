@@ -1,0 +1,19 @@
+---
+layout: comic-page
+title: "Do You Want a Balloon?"
+alttext: |-4 
+    A black, white, and grey comic.
+    Panel 1.
+    In the foreground is a man wearing a helmet with a clock on it and the words "Time Force" written on their vest. In the background is a desk with a picture of a family on it and a clock.
+    Cop: Being a time cop isn't for the faint of heart. Time criminals are a special breed of messed up.
+    Panel 2.
+    Cop, leaning in: Before you put them away some future version of them that already served their time is working to undo the whole thing.
+    Panel 3.
+    Close up on the cop. As the panel moves from left to right their face is gradually transitioning to that of a clowns.
+    Cop: Your entire life might be rewritten for reasons you don't understand and you won't even know it happened.
+    Panel 4.
+    We now see a clown standing outside of a tent holding a bunch of balloons he's handing towards a child. Across from him is the child, reaching for the balloons, and his mother.
+    Clown, cheerfully: Anyway, want a balloon kid?
+    Kid, enthusiastically: Yeah!
+---
+{% include comic-4panel.html %}
