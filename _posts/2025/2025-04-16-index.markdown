@@ -1,0 +1,22 @@
+---
+layout: comic-page
+title: "Sick of It"
+alttext: |-4 
+    A 4 panel black, white, and grey comic.
+    Panel 1.
+    A bacteria in Groucho Marx glasses is talking to a white blood cell with a police hat and baton.
+    White blood cell: Oi! What're you?
+    Bacteria: Just an innocent helpful bacteria. Nothing to see here.
+    Panel 2.
+    We zoom in a bit as the white blood cell gets in the bacteria's face, brandishing it's club.
+    White blood cell: Helpful eh? Are you sure? Cuz if you're not we're gonna have a problem you and I.
+    Bacteria: Uh... yeah. Pretty sure. Haha.
+    Panel 3.
+    The white blood cell has thrown allowed the bacteria to race past, tossing it's glasses in the air.
+    White blood cell: Then get on in here you little scamp!
+    Bacteria: WOOOOH! Party Time!
+    Panel 4.
+    We cut to an angry man who looks ill.
+    Man, between coughs: Stupid immune system.
+---
+{% include comic-4panel.html %}
