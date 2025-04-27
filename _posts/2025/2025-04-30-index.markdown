@@ -1,0 +1,23 @@
+---
+layout: comic-page
+title: "A Pirate Life"
+alttext: |-4 
+    A 4 panel black, white, and grey comic featuring a pirate and a woman with wavy hair (Jane) on a beach.
+    Panel 1.
+    The pirate is standing on a rock gesturing at Jane.
+    Pirate: Yar! Do ye feel weighed down by the drudgeries o' the modern age?
+    Jane, pensive: You know what? I do!
+    Panel 2.
+    The pirate is now on the beach approaching Jane.
+    Pirate: Do ye crave freedom from the laws that shackle gods and men?!
+    Jane, bitterly: Stupid men and their stupid laws.
+    Panel 3.
+    Close up on the pirate and Jane.
+    Pirate, jovially: Then join me crew and we shall brave the torrents o' fate and claim what we so richly deserve!
+    Jane: Sign. Me. Up.
+    Panel 4.
+    Cut to the pirate sitting at a computer with Jane, looking bored, standing behind him.
+    Jane: Well, this is underwhelming.
+    Pirate: The torrent is set. Soon Avatar 2 shall be ours! Take that James Cameron ye scurvy dog!
+---
+{% include comic-4panel.html %}
