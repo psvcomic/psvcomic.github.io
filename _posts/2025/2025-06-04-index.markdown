@@ -1,0 +1,23 @@
+---
+layout: comic-page
+title: "Notifications"
+alttext: |-4 
+    A 4 panel black, white, and grey comic featuring a man with long hair, a beard, and glasses (Programmer) sitting on a couch playing video games. An Instagram logo with a notification icon stands on the back of the couch.
+    Panel 1.
+    Logo: Hey! Hey! Hey!!!
+    Panel 2.
+    Programmer turns angrily to the logo.
+    Programmer: What?!
+    Logo: A thing happened.
+    Panel 3.
+    Close up on Programmer, looking angry, and the logo.
+    Programmer: Is someone trying to contact me?
+    Logo: No.
+    Programmer: Is it about someone I follow?
+    Logo: No.
+    Panel 4.
+    Zoom back up. Programmer has returned to playing video games looking annoyed.
+    Logo: It happened on Threads.
+    Programmer: You just lost your notification privileges.
+---
+{% include comic-4panel.html %}
