@@ -1,0 +1,20 @@
+---
+layout: comic-page
+title: "RGB Defense Grid"
+alttext: |-4 
+    A 4 panel black, white, and grey comic featuring two moths sitting at a table with a speaker on it. One is wearing an army helmet (General) and the other has parted hair and a suit (President).
+    Panel 1. 
+    General: Corporal, I have the moth president here to observe. Are you in position to insert the off by one error?
+    Corporal, via speaker: Yes General. We are approaching the computer now.
+    Panel 2. 
+    Close up on the president.
+    President: Corporal, the thoughts of our people are with you and your team. Today you strike a blow for all moth kind. You have my approval. Proceed when ready.
+    Panel 3.
+    Cut out again.
+    Corporal: General! Out intel was wrong! The computer... It has gamer lights!!!
+    Panel 4.
+    General, panicked: Get out of there Corporal! Corporal?!
+    President, distressed: Oh my moth!
+    Corporal: SOOOO BRIIIIIGGGHT!!!
+---
+{% include comic-4panel.html %}
