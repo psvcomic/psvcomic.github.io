@@ -1,0 +1,19 @@
+---
+layout: comic-page
+title: "It's a Surprise"
+alttext: |-4 
+    A 4 panel black, white, and grey comic featuring a man wearing a top hat and monocle (Richman) sitting in a fancy chair beside a pile of jewels. A field is visible out a nearby window.
+    Panel 1.
+    Out the window we can see a construction worker carrying in something wrapped in cloth.
+    Richman: Truth is I've been bilking this town for years.
+    Panel 2.
+    Out the window we can see two construction workers standing up the large, cloth wrapped object.
+    Richman: There are so many tax incentives they're practically paying to work for me.
+    Panel 3.
+    Out the window the ropes holding the cloth on the object have been removed and a worker is pulling the cloth away.
+    Richman: And the best part? I throw a paltry sum at a hospital and they think I'm some kind of saint!
+    Panel 4.
+    A guillotine is now visible out the window. A worker stands in front of it looking happy.
+    Richman: They're setting up a tribute to my generosity right now. Suckers.
+---
+{% include comic-4panel.html %}
