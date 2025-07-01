@@ -1,0 +1,17 @@
+---
+layout: comic-page
+title: "Just Thinking About It"
+alttext: |-4 
+	A 4 panel black, white, and grey comic featuring a cat sitting on a couch.
+	Panel 1.
+	Cat: You know, there isn't anything in the rules that says a cat can't play basketball.
+	Panel 2.
+	The cat has flipped over on it's back and is sleeping.
+	Panel 3.
+	The cat cracks an eye open.
+	Cat: Oh, you're still here. I'm not going to do it.
+	Panel 4.
+	The cat and flipped back over and looks on the edge of sleep.
+	Cat: But I could... If I wanted to...
+---
+{% include comic-4panel.html %}
