@@ -32,8 +32,8 @@ patreon_link: https://www.patreon.com/psvcomic
 
 # Build settings
 # theme: minima
-# plugins:
-#   - jekyll-feed
+plugins:
+   - jekyll-archives
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -54,3 +54,10 @@ patreon_link: https://www.patreon.com/psvcomic
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+jekyll-archives:
+  enabled: [year]
+  permalinks:
+    year: '/:year/'
+  layouts:
+    year: year-archive

@@ -242,6 +242,86 @@
 				text-decoration: none;
 				color: #000000;
 			}
+			
+			#archive-nav {
+				display: block;
+				max-width: 648px;
+				width: 100%;
+				margin: 0 auto;
+				padding: 36px 64px 24px;
+				overflow: hidden;
+				text-align: center;
+				font-family: Consolas,Menlo,"courier new",monospace;
+				font-size: 2em;
+			}
+			
+			#archive-nav-prev, #archive-nav-next {
+				height: 24px;
+			}
+			
+			#archive-nav-prev {
+				float: left;
+			}
+			
+			#archive-nav-next {
+				float: right;
+			}
+			
+			.archive-content {
+				display: block;
+				max-width: 648px;
+				width: 100%;
+				margin: 0 auto;
+				overflow: hidden;
+				text-align: center;
+				padding: 0 12px;
+			}
+			
+			@media screen and (max-width: 648px) {
+				.archive-content {
+					max-width: 492px;
+				}
+			}
+			
+			@media screen and (max-width: 492px) {
+				.archive-content {
+					max-width: 336px;
+				}
+			}
+			
+			@media screen and (max-width: 336px) {
+				.archive-content {
+					max-width: 180px;
+				}
+			}
+			
+			.archive-content a {
+				display: block;
+				text-decoration: none;
+				color: black;
+			}
+			
+			.archived-comic {
+				display: block;
+				float: left;
+				width: 156px;
+				margin: 0 0 24px;
+			}
+			
+			.archive-image {
+				display: block;
+				aspect-ratio: 1; 
+			}
+			
+			.archive-image img {
+				display: block;
+				width: 100%;
+			}
+			
+			.archive-date {
+				font-family: Consolas,Menlo,"courier new",monospace;
+				font-size: 1em;
+			}
 		</style>
 		<script>
 			function toggleMenu() {
