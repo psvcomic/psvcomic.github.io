@@ -6,7 +6,11 @@
 		{% include icon_links.html %}
 		<meta name="apple-mobile-web-app-title" content="{{ site.title | escape }}">
 		
+		{% if page.title %}
 		<title>{{ site.title | escape }} - {{ page.title | escape }}</title>
+		{% else %}
+		<title>{{ site.title | escape }} - {{ page.date | date: '%Y' }} Archive</title>
+		{% endif %}
 		<meta name="description" content="{{ site.description | escape}}">
 		
 		<meta property="og:title" content="{{ site.title | escape }} - {{ page.title | escape }}" />
