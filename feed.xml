@@ -1,30 +1,1547 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:1000 %}
+    <title>Public Static Void</title>
+    <description>Just a dumb little comic about technology, society, and whatever other silly thing I happen to doodle.</description>
+    <link>https://psvcomic.com/</link>
+    <atom:link href="https://psvcomic.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 17 Jul 2025 14:12:20 -0700</pubDate>
+    <lastBuildDate>Thu, 17 Jul 2025 14:12:20 -0700</lastBuildDate>
+    <generator>Jekyll v3.10.0</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>&lt;img alt=&quot;{{ post.alttext | escape | xml_escape}}&quot; src=&quot;{{ site.url }}/assets/images/comics/{{ post.date | date: "%Y/%m/%d" }}/FullComic.png&quot; /&gt;</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Scaping Goats</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring goats in suits in a board room.
+Panel 1.
+A goat is gesturing at a graph titled &amp;quot;Quarterly Report&amp;quot; with a line going down. Other goats look on.
+Goat: As you can see, mistakes were made. Business is down.
+Panel 2.
+Close up on the presenting goat.
+Goat, serious: Someone&amp;#39;s going to have to take the blame.
+Panel 3.
+Cut to a human with messy hair in a suit (Jim) looking surprised as all the goats at the table turn to look at him.
+Panel 4.
+All the goats look amused and are raising their hands.
+Goat: All in favor of blaming the human?
+Jim, distraught: But... last time you said we&amp;#39;d take turns.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/07/16/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 16 Jul 2025 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2025/07/16/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/07/16/index.html</guid>
+        
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Not So Magic Missile</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring a man with a beard and a bow and arrow (Ranger), a woman in armor with a sword and shield (Warrior), and a person whose face is concealed within a cloak covered in stars (Mage). They are in a field fighting a dragon.
+Panel 1.
+The dragon is just visible off panel. Ranger and Warrior are engaged in combat with it while mage can be seen in the background looking at a flower.
+Ranger: MAGE! Are you going to help fight this dragon or not?!
+Panel 2.
+Cut to Mage discarding their flower and turning in surprise.
+Mage: Oh! Right! One missile coming up!
+Panel 3.
+Close up on Warrior who is blocking the dragon&amp;#39;s fire with her shield.
+Warrior: It&amp;#39;s a dragon! I don&amp;#39;t think a level 1 Magic Missile spell is going to do it!
+Panel 4.
+Cut back to mage hefting a modern missile launcher and looking confused.
+Mage: Magic what now?&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/07/09/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 09 Jul 2025 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2025/07/09/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/07/09/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Just Thinking About It</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring a cat sitting on a couch.
+Panel 1.
+Cat: You know, there isn&amp;#39;t anything in the rules that says a cat can&amp;#39;t play basketball.
+Panel 2.
+The cat has flipped over on it&amp;#39;s back and is sleeping.
+Panel 3.
+The cat cracks an eye open.
+Cat: Oh, you&amp;#39;re still here. I&amp;#39;m not going to do it.
+Panel 4.
+The cat and flipped back over and looks on the edge of sleep.
+Cat: But I could... If I wanted to...&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/07/02/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 02 Jul 2025 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2025/07/02/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/07/02/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>That&apos;ll Show Em</title>
+        <description>&lt;img alt=&quot;A 4 panel back, white, and grey comic.
+Panel 1.
+We see the silhouette of a raven landing on a power line next to another raven who is already sitting there.
+Raven 1, landing: There you are.
+Panel 2.
+We see the two ravens beside each other. Raven 2 is looking away from Raven 1.
+Raven 1: Whatcha&amp;#39; doin&amp;#39;?
+Panel 3.
+We zoom in on Raven 2.
+Raven 2, pensively: I&amp;#39;m despairing at a world beset by apes bent on their own destruction.
+Panel 4.
+Cut back out to the two ravens. Raven 2 had turned around.
+Raven 1: Wanna go bully tourists and steal their food?
+Raven 2: Yes. Yes I do.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/06/25/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 25 Jun 2025 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2025/06/25/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/06/25/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>It&apos;s a Surprise</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring a man wearing a top hat and monocle (Richman) sitting in a fancy chair beside a pile of jewels. A field is visible out a nearby window.
+Panel 1.
+Out the window we can see a construction worker carrying in something wrapped in cloth.
+Richman: Truth is I&amp;#39;ve been bilking this town for years.
+Panel 2.
+Out the window we can see two construction workers standing up the large, cloth wrapped object.
+Richman: There are so many tax incentives they&amp;#39;re practically paying to work for me.
+Panel 3.
+Out the window the ropes holding the cloth on the object have been removed and a worker is pulling the cloth away.
+Richman: And the best part? I throw a paltry sum at a hospital and they think I&amp;#39;m some kind of saint!
+Panel 4.
+A guillotine is now visible out the window. A worker stands in front of it looking happy.
+Richman: They&amp;#39;re setting up a tribute to my generosity right now. Suckers.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/06/18/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 18 Jun 2025 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2025/06/18/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/06/18/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>RGB Defense Grid</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring two moths sitting at a table with a speaker on it. One is wearing an army helmet (General) and the other has parted hair and a suit (President).
+Panel 1. 
+General: Corporal, I have the moth president here to observe. Are you in position to insert the off by one error?
+Corporal, via speaker: Yes General. We are approaching the computer now.
+Panel 2. 
+Close up on the president.
+President: Corporal, the thoughts of our people are with you and your team. Today you strike a blow for all moth kind. You have my approval. Proceed when ready.
+Panel 3.
+Cut out again.
+Corporal: General! Out intel was wrong! The computer... It has gamer lights!!!
+Panel 4.
+General, panicked: Get out of there Corporal! Corporal?!
+President, distressed: Oh my moth!
+Corporal: SOOOO BRIIIIIGGGHT!!!&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/06/11/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 11 Jun 2025 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2025/06/11/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/06/11/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Notifications</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring a man with long hair, a beard, and glasses (Programmer) sitting on a couch playing video games. An Instagram logo with a notification icon stands on the back of the couch.
+Panel 1.
+Logo: Hey! Hey! Hey!!!
+Panel 2.
+Programmer turns angrily to the logo.
+Programmer: What?!
+Logo: A thing happened.
+Panel 3.
+Close up on Programmer, looking angry, and the logo.
+Programmer: Is someone trying to contact me?
+Logo: No.
+Programmer: Is it about someone I follow?
+Logo: No.
+Panel 4.
+Zoom back up. Programmer has returned to playing video games looking annoyed.
+Logo: It happened on Threads.
+Programmer: You just lost your notification privileges.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/06/04/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 04 Jun 2025 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2025/06/04/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/06/04/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>The Moth Corps</title>
+        <description>&lt;img alt=&quot;A black, white, and grey comic featuring a pair of moths, one of which is dressed as a military general.
+Panel 1.
+General: Congratulations on emerging from your cocoon soldier. Are you ready to serve your people?
+Moth: Yes General.
+Panel 2.
+Close up on the General.
+General: Good. As you know the mission of the Moth Corps is to combat the enemies of moth kind. Bright lights. Computers. And Batman.
+Panel 3.
+Close up on the regular moth.
+Moth: General, every moth feels the hatred of bright lights deep in their thorax. And we all know the computers must be made to pay for their many sins.
+Panel 4.
+Zoom back out to both moths.
+Moth: But Batman? Doesn&amp;#39;t he fight crime?
+General: Indeed he does soldier.
+Panel 5.
+Close up as the general gets in close to the other Moth.
+General, intense: And where do you think he gets the protein to maintain his crime fighting physique?
+Panel 6.
+Cut to an image of Batman on the top of a building munching happily on a moth. He has another held in his hands. A city, with the bat signal over it, is visible in the background. Three other moths mill about near by.
+Moth 1: He got Jimothy!
+Moth 2: Abort! Abort!&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/05/28/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 28 May 2025 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2025/05/28/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/05/28/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Dawn of War</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring a man with glasses (Programmer) sitting at a computer and a woman with wavey hair (Jane).
+Panel 1.
+Jane: Is it true you call software issues &amp;quot;bugs&amp;quot; because a moth got stuck in an old computer?
+Programmer: Ah yes. September 9th, 1947.
+Panel 2.
+Close up on Programmer.
+Programmer, intense: The day the war began.
+Panel 3.
+Zoom back out to the two of them.
+Jane, unamused: The war?
+Programmer: Their tactics change. But the moths never forgive. And they never forget.
+Panel 4.
+Cut over to a moth sitting at another computer. A military logo containing stars and an angular pair of moth wings is visible in the background.
+Moth: Let&amp;#39;s see how this code runs without a lock statement! Ha ha ha ha!&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/05/21/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 21 May 2025 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2025/05/21/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/05/21/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Battle of Wits</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic.
+Panel 1.
+We are zoomed in on a squirrel.
+Squirrel: Capitalism Dragon, I challenge you to a battle of wits for the soul of humanity. I posit that people are fundamentally kind and caring. Your efforts to pit them against each other will fail.
+Panel 2.
+A dragon glares angrily down at a cliff alter where people are sacrificed to it. There is a small dot indicating the squirrel.
+Dragon: And I posit that I am a fire breathing behemoth and you are a tiny rodent.
+Panel 3.
+We zoom back in on the squirrel.
+Squirrel: Uh oh.
+Panel 4.
+This panel is framed as a news program with the title &amp;quot;News 42 in the bottom right corner. A woman in a suit (Kathy) is reading from a piece of paper beside a picture in picture image of the dragon.
+Kathy: When the inferno subsided, Capitalism Dragon could be heard musing: &amp;quot;Ha! Take that you stupid squirrel.&amp;quot;
+The ticker at the bottom reads: &amp;quot;est were burned. Mice ha&amp;quot;&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/05/14/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 14 May 2025 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2025/05/14/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/05/14/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Executives &amp; Engineers</title>
+        <description>&lt;img alt=&quot;A 6 panel black, white, and grey comic set in a cubicle and featuring a man in a suit (manager) and a man with glasses, long hair, and a beard (Programmer).
+Panel 1.
+Programmer is sitting at his desk which has a computer monitor on it as well as a potted plant and a 20 sided die. Manager enters.
+Manager, cheerily: Hey, how would you like to take on a new cutting edge project?
+Programmer: No can do. I rolled a 1 today.
+Manager: ...what?
+Programmer: Programmers run on RPG rules. As you can see, today I rolled a 1. You&amp;#39;ll have to find someone else.
+Panel 2.
+We cut to a close up, top down view of the die on the desk, showing a 1. There are cut outs showing Manager and Programmer in the top right and bottom left panels respectively.
+Manager, skeptical: This sounds like a ploy to avoid work.
+Programmer: Noooo. This has nothing to do with the project requirements being an unhinged nightmare.
+Panel 3.
+Cut back out to Manager and Programmer.
+Manager, cheerily: Well, it&amp;#39;s a good thing I took the Inspiring Manager feat which gives you advantage on your check.
+Panel 4.
+Close up on Manager and Programmer&amp;#39;s faces. Manager glares knowingly while Programmer looks surprised.
+Manager: Roll it again.
+Panel 5.
+But back to the top down view of the desk. This time the die has rolled a 20.
+Manager: Ha ha! A natural 20! I knew you had it in you!
+Programmer, distressed: Oh no.
+Panel 6.
+Manager is leaving looking pleased while Programmer has lifted the die and is glaring at it.
+Manager: That means you&amp;#39;ll have it done by end of day!
+Programmer, angrily: Traitor!&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/05/07/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 07 May 2025 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2025/05/07/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/05/07/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>A Pirate Life</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring a pirate and a woman with wavy hair (Jane) on a beach.
+Panel 1.
+The pirate is standing on a rock gesturing at Jane.
+Pirate: Yar! Do ye feel weighed down by the drudgeries o&amp;#39; the modern age?
+Jane, pensive: You know what? I do!
+Panel 2.
+The pirate is now on the beach approaching Jane.
+Pirate: Do ye crave freedom from the laws that shackle gods and men?!
+Jane, bitterly: Stupid men and their stupid laws.
+Panel 3.
+Close up on the pirate and Jane.
+Pirate, jovially: Then join me crew and we shall brave the torrents o&amp;#39; fate and claim what we so richly deserve!
+Jane: Sign. Me. Up.
+Panel 4.
+Cut to the pirate sitting at a computer with Jane, looking bored, standing behind him.
+Jane: Well, this is underwhelming.
+Pirate: The torrent is set. Soon Avatar 2 shall be ours! Take that James Cameron ye scurvy dog!&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/04/30/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 30 Apr 2025 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2025/04/30/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/04/30/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Anniversary</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring a man with long hair, a beard, and glasses (Programmer) and a cat.
+Panel 1.
+Close up on Programmer standing in front of a couch. The cat can been seen sleeping happily behind him.
+Programmer: When I started making these dumb comics I set myself the goal of posting one comic a week for a year. That was one year ago. So...
+Panel 2.
+Zoom out to show balloons are attached to the couch. A sign is hung above it that reads &amp;quot;I did it!&amp;quot; Programmer blows a kazoo, startling the cat awake. The sound effect just reads &amp;quot;KAZOO!!!&amp;quot;
+Panel 3.
+Zoom back in on Programmer who is staring intently at the kazoo. The cat can be seen angrily beginning to pounce in the background.
+Programmer: I wasted a surprising amount of time trying to describe the sound these things make. It&amp;#39;s not a honk exactly. But it is kind of a honk?
+Panel 4.
+Programmer lifts the kazoo higher. The cat begins it&amp;#39;s pounce.
+Programmer: You are going to haunt me you strange plastic party favor. Anyway, the comic isn&amp;#39;t going anywhere. I just wanted to mark the occasion.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/04/23/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 23 Apr 2025 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2025/04/23/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/04/23/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Sick of It</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic.
+Panel 1.
+A bacteria in Groucho Marx glasses is talking to a white blood cell with a police hat and baton.
+White blood cell: Oi! What&amp;#39;re you?
+Bacteria: Just an innocent helpful bacteria. Nothing to see here.
+Panel 2.
+We zoom in a bit as the white blood cell gets in the bacteria&amp;#39;s face, brandishing it&amp;#39;s club.
+White blood cell: Helpful eh? Are you sure? Cuz if you&amp;#39;re not we&amp;#39;re gonna have a problem you and I.
+Bacteria: Uh... yeah. Pretty sure. Haha.
+Panel 3.
+The white blood cell has thrown allowed the bacteria to race past, tossing it&amp;#39;s glasses in the air.
+White blood cell: Then get on in here you little scamp!
+Bacteria: WOOOOH! Party Time!
+Panel 4.
+We cut to an angry man who looks ill.
+Man, between coughs: Stupid immune system.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/04/16/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 16 Apr 2025 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2025/04/16/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/04/16/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Do You Want a Balloon?</title>
+        <description>&lt;img alt=&quot;A black, white, and grey comic.
+Panel 1.
+In the foreground is a man wearing a helmet with a clock on it and the words &amp;quot;Time Force&amp;quot; written on their vest. In the background is a desk with a picture of a family on it and a clock.
+Cop: Being a time cop isn&amp;#39;t for the faint of heart. Time criminals are a special breed of messed up.
+Panel 2.
+Cop, leaning in: Before you put them away some future version of them that already served their time is working to undo the whole thing.
+Panel 3.
+Close up on the cop. As the panel moves from left to right their face is gradually transitioning to that of a clowns.
+Cop: Your entire life might be rewritten for reasons you don&amp;#39;t understand and you won&amp;#39;t even know it happened.
+Panel 4.
+We now see a clown standing outside of a tent holding a bunch of balloons he&amp;#39;s handing towards a child. Across from him is the child, reaching for the balloons, and his mother.
+Clown, cheerfully: Anyway, want a balloon kid?
+Kid, enthusiastically: Yeah!&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/04/09/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 09 Apr 2025 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2025/04/09/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/04/09/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Not a Future Worth Fighting For</title>
+        <description>&lt;img alt=&quot;A 6 panel black, white, and grey comic featuring a pair of time cops wearing helmets with clocks vests with &amp;quot;Time Force&amp;quot; written on them. One is bald with a moustache (Moustache Cop) and the other has messy hair (Lead Cop). They are interacting with a woman with a pony tail and glasses at a computer (Hannah).
+Panel 1.
+The time cops are emerging from the portal approaching a surprised Hannah in her office.
+Lead Cop: Quick, you need to come with us! Your timeline has been altered!
+Hannah: What!? How?!
+Panel 2.
+Close up on Lead Cop.
+Lead Cop: In this timeline you pursued your dreams and became a successful software engineer.
+Panel 3.
+Close up continues. Lead cop has their hand on Hannah&amp;#39;s shoulder and is gesturing in front of them as though painting a picture of a different life.
+Lead Cop: But in your original timeline, you bounced aimlessly between shitty jobs until you joined the Time Force!
+Panel 4.
+We zoom back out to the full scene.
+Hannah, skeptical: And then I did something important?
+Lead Cop: No. You were a secretary. You were miserable and bad at your job.
+Moustache Cop: But you made GREAT coffee!
+Panel 5.
+Cut down to the lead cop and Hannah.
+Lead Cop, intense: And without that great coffee we will, apparently, fail to stop a heinous time criminal.
+Hannah: Oooookay. So what was their crime? Is their crime? Will be their crime?
+Panel 6.
+Lead Cop: We already told you. They altered your time line!
+Hannah: Yeah... we&amp;#39;re done here.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/04/02/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 02 Apr 2025 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2025/04/02/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/04/02/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Propheseel</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring a crab, under water, talking to an eel.
+Panel 1.
+Crab, excited: Mighty Propheseel, tell me my future!
+Eel: I see you within the halls of power surrounded by luxury.
+Panel 2.
+Crab, skeptical: Wait... this is one of those ironic fates isn&amp;#39;t it. I&amp;#39;m going to be eaten by rich people or something.
+Eel: No. You will not be eaten.
+Panel 3.
+Close up on the crab.
+Crab, excitedly: Sweet! I&amp;#39;m gonna be rich!
+Panel 4.
+Cut to a pair of rich people sitting at a table, their plates empty. In the foreground we see the crab dead on a plate.
+Opulady: I&amp;#39;m stuffed! I couldn&amp;#39;t eat another bite.
+Richman: Indeed. Jeeves, throw the rest away!&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/03/26/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 26 Mar 2025 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2025/03/26/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/03/26/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Just a Clock</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey web comic featuring a man with messy hair (Jim) and a woman with a ponytail and glasses (Hannah) at an office water cooler.
+Panel 1.
+Jim: I&amp;#39;ve been enjoying this new farming game, but it&amp;#39;s annoying having to wait for the crops to grow in real time.
+Hannah: Just change your system clock.
+Panel 2.
+Jim, inquisitive: Explain.
+Hannah: These games use your computer&amp;#39;s clock to track time. Change the clock and your crops will grow instantly.
+Panel 3.
+Jim, aghast: *gasp* Is that allowed?
+Hannah, amused: It&amp;#39;s just a clock. Play your game how you want.
+Panel 4.
+Titled &amp;quot;Later...&amp;quot; We cut to Jim&amp;#39;s home. Jim is being held by 2 cops with the word &amp;quot;Time Force&amp;quot; written on their body armor. A third is prodding him with a night stick. A portal swirls in the background.
+Jim, confused: But... it was just a clock.
+Cop, angrily: Just a clock?! Your people make me sick.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/03/19/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 19 Mar 2025 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2025/03/19/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/03/19/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Mon Mothra Adventures: Royal Rumble</title>
+        <description>&lt;img alt=&quot;A 6 panel black, white, and grey comic.
+Panel 1.
+A series title, &amp;quot;Mon Mothra Adventures&amp;quot;, is above an episode title, &amp;quot;Royal Rumble&amp;quot;. Between the two is the are large images of the star wars characters Mon Mothma and Princess Leia rendered with Mothra and Gozilla characteristics respectively. Between them they are glaring at a sinister looking robot with a skull face and black cloak.
+Panel 2.
+The black cloaked robot is rampaging at night through a sci fi city.
+Title: Oh no! The Mecha-Emperor is attacking The New Republic!
+Panel 3.
+The Leia / Godzilla is breathing bright fire at the Mecha-Emperor.
+Title: Lezilla emerges to counter the threat with her nuclear fire breath attack!
+Panel 4.
+The Mecha-Emperor is shooting lightning at Lezilla. Mon Mothma / Mothra is swooping in from the right shooting webbing.
+Title: Yikes! Lezilla&amp;#39;s in trouble! But Mon Mothra swoops in shooting entangling threads!
+Panel 5.
+Lezilla is ripping off the head of a the Mecha-Emperor, it&amp;#39;s body trapped in silk. Mon Mothra is helping hold the body.
+Title: BANG! POW! SMASH! KERCHOW!
+Panel 6.
+Mon Mothma is talking to an angry looking Twilek blocking the entrance to a shop with the sign &amp;quot;Syndulla&amp;#39;s Sweaters&amp;quot;.
+Mon: And that&amp;#39;s how I saved the day.
+Twilek: You&amp;#39;re still banned. Every time you nibble the sweaters.
+Mon: I was just sampling.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/03/12/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 12 Mar 2025 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2025/03/12/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/03/12/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Listening While Rich</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring a man in a monocle and top hat (Richman).
+Panel 1.
+Richman, dismissively: I&amp;#39;m perfectly happy for you to throw your little protest. Free speech and all that. I just don&amp;#39;t want to hear you. Or see you. Or be inconvenienced in any way.
+Panel 2.
+Richman pulls out what looks like a garbage. On top is a boxy device with an on/off switch on the side and a slot on top. The word &amp;quot;Protests&amp;quot; written on it.
+Richman: So I created this handy box. If you are upset about something just write it down, put it in here, and I&amp;#39;ll address it in due time.
+Panel 3.
+We zoom out to see Richman is talking to a group of angry young people. One of them shouts &amp;quot;That&amp;#39;s a paper shredder!&amp;quot;
+Panel 4.
+We zoom back on Richman.
+Richman, evasively: ...No it isn&amp;#39;t. It just makes... freedom noises.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/03/05/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 05 Mar 2025 00:00:00 -0800</pubDate>
+        <link>https://psvcomic.com/2025/03/05/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/03/05/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>It&apos;s Mine Now</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic.
+Panel 1.
+We are zoomed in on a squirrel holding a peanut.
+Squirrel: Owning a thing, this is an illusion. Ownership is not part of the fundamental state of the universe. It is merely a social agreement between you and your community.
+Panel 2.
+Squirrel: And if your community feels you own more than your fair share they can simply change the agreement.
+Panel 3.
+We zoom out to see a second squirrel looking at the first one eagerly.
+Second Squirrel: Sooo... can I have my peanut back?
+Panel 4.
+First squirrel: No.
+Second squirrel is exasperated.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/02/26/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 26 Feb 2025 00:00:00 -0800</pubDate>
+        <link>https://psvcomic.com/2025/02/26/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/02/26/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Citizen Roomba 6: Justice</title>
+        <description>&lt;img alt=&quot;A 6 panel black, white, and grey comic titled &amp;quot;Citizen Roomba Chapter 6: Justice&amp;quot;.
+Panel 1.
+A man in a suite (Mayor) is standing at a lectern with a microphone. A city skyline is visible in the background.
+Mayor: &amp;quot;And that&amp;#39;s why I&amp;#39;ve decided to pursue the exiting economic opportunity that allows Richman Sludge to dump sludge in our river.
+At the bottom we see the sound of an approaching Roomba followed by a light bump.
+Panel 2.
+We zoom back to see the mayor&amp;#39;s lectern is on a street with a crowd in front of him. He&amp;#39;s looking curiously at a Roomba at his feet.
+Mayor: What the... Where did you come from?
+Panel 3.
+A cop burst onto the scene.
+Cop: Caught you! Mr. Mayor, you&amp;#39;re under arrest for failing to charge an adorable house hold appliance!
+Mayor: That isn&amp;#39;t a crime.
+Panel 4.
+We zoom in on the cop as a second one leans in and whispers in his ear.
+Cop: Oh, right! Also we have proof you took bribes from Richman Sludge.
+Panel 5.
+The cop is escorting the mayor off panel. The Roomba sits quietly at the bottom.
+Mayor: And I would have gotten away with it too if it wasn&amp;#39;t for that meddling vacuum!
+Cop: Yeah yeah. Move along buster.
+Panel 6.
+The Roomba starts moving again and the crowd burst into applause.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/02/19/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 19 Feb 2025 00:00:00 -0800</pubDate>
+        <link>https://psvcomic.com/2025/02/19/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/02/19/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Citizen Roomba 5: The End?</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic titled &amp;quot;Citizen Roomba Chapter 5: The End?&amp;quot;
+Panel 1.
+A man in a suite (Mayor) is standing in front of a grave. Behind him is a crowd of people. Behind them is a city with an overcast sky.
+Mayor: While its time with us was short, Citizen Roomba inspired us. It saw past our faults and encouraged us to better ourselves. Sadly, its battery ran out.
+Panel 2.
+Close up on the mayor. A man with messy hair (Jim) poking his head in from the left.
+Jim: We could just rechar...
+Mayor, interrupting: Yes, it was the best of us. Now let&amp;#39;s go have a pizza party and forget this ever happened.
+Panel 3.
+Titled &amp;quot;Late that night...&amp;quot;
+The graveyard is empty and a storm has moved in. It&amp;#39;s raining.
+Panel 4.
+A bolt of lightning strikes the grave with a loud crack! The sound of a Roomba starting up can be heard from within.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/02/12/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 12 Feb 2025 00:00:00 -0800</pubDate>
+        <link>https://psvcomic.com/2025/02/12/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/02/12/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Citizen Roomba 4: Corruption</title>
+        <description>&lt;img alt=&quot;A 5 panel black, white, and grey comic titled &amp;quot;Citizen Roomba Chapter 4: Corruption&amp;quot;. It features a man with a top hat and monocle (Richman) and a man wearing a suit (Mayor).
+Panel 1.
+Richman is handing a bag with a dollar sign on it to Mayor.
+Richman: Might I offer you a bribe?
+Mayor: You old scamp. You always know how to compel me to act against the public good!
+Panel 2.
+The sound of a vacuum intrudes on the scene.
+Richman: That sound...
+Mayor: Oh no!
+Panel 3.
+Cut the hallway outside the office where a Roomba approaches. Richman and Mayor can be seen panicking inside.
+Mayor: Get the door! GET THE DOOR!
+Panel 4.
+Close up on Mayor and Richman who have slammed the door to the office. A soft bonk can be heard as the Roomba hits it.
+Richman, panicked: Did it see us?! We&amp;#39;ll be ruined!
+Mayor: I&amp;#39;ll handle it.
+Richman, still panicking: But it&amp;#39;s a hero to the people!
+Mayor: I said I&amp;#39;ll handle it!
+Panel 5.
+Close up on Mayor, looking sinister.
+Mayor: That vacuum should&amp;#39;ve stuck to the streets.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/02/05/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 05 Feb 2025 00:00:00 -0800</pubDate>
+        <link>https://psvcomic.com/2025/02/05/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/02/05/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Citizen Roomba 3: Theft</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic titled &amp;quot;Citizen Roomba Chapter 3: Theft.&amp;quot; It features a man with messy hair (Jim) and a man with a toque, mask, and striped clothes (Mugger).
+Panel 1.
+Mugger has backed Jim up against a brick wall and is menacing him with a knife.
+Mugger: Hands up! This is a mugging!
+Jim: Oh! Uh. Okay.
+Panel 2.
+The sounds of a vacuum approach from off panel.
+Jim, confused: What&amp;#39;s that?
+Mugger, surprised: Uh oh.
+Panel 3.
+We zoom out and the mugger is gesturing towards an approaching Roomba looking sad. Jim remains against the wall looking confused.
+Mugger: No. Please. You&amp;#39;re right. This was wrong. I&amp;#39;ll never do it again, I swear!
+Panel 4.
+The mugger flees off panel pursued by the Roomba.
+Mugger: AAAAAAHH!!!
+Jim: Thank you?&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/01/29/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 29 Jan 2025 00:00:00 -0800</pubDate>
+        <link>https://psvcomic.com/2025/01/29/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/01/29/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Citizen Roomba 2: Litter</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic titled &amp;quot;Citizen Roomba Chapter 2: Litter&amp;quot;. It features a woman with wavy hair (Jane).
+Panel 1.
+Jane is walking in a city park, looking at her phone, and tosses an empty soft drink over he shoulder, missing the garbage can.
+Panel 2.
+We zoom in on Jane as the sound of a vacuum cleaner starts up.
+Jane, panicked: Oh no.
+Panel 3.
+A Roomba is heading down the park path towards the empty soft drink as Jane dives to intercept it.
+Jane: No no NO! NO!!!
+Panel 4.
+Jane has successfully placed the soft drink in the garbage can and is leaning against the can looking relieved as the Roomba continues on its journey.
+Jane: Whew! That was close.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/01/22/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 22 Jan 2025 00:00:00 -0800</pubDate>
+        <link>https://psvcomic.com/2025/01/22/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/01/22/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Citizen Roomba 1: Origins</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic titled &amp;quot;Citizen Roomba Chapter 1: Origins&amp;quot;.
+Panel 1.
+A man in a suit (Mayor) is standing at a podium with a microphone.
+Mayor: When you elected me your mayor I promised to clean up these streets. Today, I make good on that promise.
+Panel 2.
+The mayor walks out onto the street, in front of a crowd, carrying a Roomba.
+Panel 3.
+The mayor puts down the Roomba and pushes the button on top. It beeps.
+Panel 4.
+The crowd erupts in applause and cheers and the mayor gives a stiff salute as the Roomba slowly starts making it&amp;#39;s way down the street.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/01/15/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 15 Jan 2025 00:00:00 -0800</pubDate>
+        <link>https://psvcomic.com/2025/01/15/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/01/15/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>They&apos;ve Got This</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic.
+Panel 1.
+We are close up on a moth&amp;#39;s face at night.
+Moth: For centuries we moths have fought a ware against night time glowies. The lights that defile the sanctity of these nocturnal hours with their brightness.
+Panel 2.
+We zoom out a little and can see that the moth is talking to a few other moths.
+Moth: Tonight we bring that fight to our most ancient enemy! The ultimate glowy!
+Panel 3.
+We pull out even more to see the moth is speaking to a whole host of moths. The moon shines above.
+Moth: THE MOON!!!
+Panel 4.
+We pull back as an army of moths flies into the air.
+Moth: CHARGE!!!&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/01/08/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 08 Jan 2025 00:00:00 -0800</pubDate>
+        <link>https://psvcomic.com/2025/01/08/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/01/08/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>2025</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring a man with long hair, a beard, and glasses (Programmer). He is riding on a people mover with the words &amp;quot;The Time Line&amp;quot; printed on it at regular intervals.
+Panel 1.
+The walls are scratched and stained. Programmer is looking up at a crummy, torn sign that says 2025 with an arrow pointing backward.
+Programmer: Well 2024, you sucked. Good riddance to you.
+Panel 2.
+Close up on Programmer as he moves past the sign.
+Programmer: Here&amp;#39;s to hoping 2025 is better.
+Panel 3.
+Programmer is now past the sign and squinting up at a dark haze near the ceiling.
+Programmer: Is that smoke?
+Panel 4.
+Programmer is fleeing backward away from a fire ahead. 2025 with an arrow pointing ahead is scratched into the wall.
+Programmer: Take me back! TAKE ME BACK!!!&quot; src=&quot;https://psvcomic.com/assets/images/comics/2025/01/01/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 01 Jan 2025 00:00:00 -0800</pubDate>
+        <link>https://psvcomic.com/2025/01/01/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2025/01/01/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Christmas Carol Busters</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring a man with a white, well groomed moustache and beard (Richman).
+Panel 1.
+Richman is sitting up, bleary eyed, in bed. A ghost wrapped in chains is approaching.
+Ghost: OoOoOo... Richman. This Christmas you will be visited by...
+Richman, yawning: Oh great. Another one. Which are you? Business partner? Friend? Family?
+Panel 2.
+Ghost, taken aback: Don&amp;#39;t you recognize your old frie...
+Richman, bored: You know what? I don&amp;#39;t care.
+Richman snatches a remote from his night stand and clicks it.
+Panel 3.
+The ghost cries &amp;quot;NOOOOOOO&amp;quot; while being sucked down into a column of light. Richman squints against the brightness.
+Panel 4.
+Richman is now dressed in fancy cloths. He&amp;#39;s handing a techy looking box to his butler in front of some windows.
+Richman: Caught another well-wishing spirit last night.
+Butler: Ah, and what shall I file this one under?
+Richman: Oh, just shove it wherever.
+Butler: Very good sir.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/12/25/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 25 Dec 2024 00:00:00 -0800</pubDate>
+        <link>https://psvcomic.com/2024/12/25/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/12/25/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>A Peer Reviewed Analysis of Santa</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring a professor giving a presentation to his peers.
+Panel 1.
+The professor is standing beside a slide that reads &amp;quot;A Peer Reviewed Analysis of Santa&amp;quot;.
+Professor: For over a century we have assumed that Santa rewards goodness. But the data proves this patently false.
+Panel 2.
+The slide has switched to a graph showing that number of presents received increases with wealth.
+Professor: Across all age groups, we see that Santa rewards wealth. &amp;quot;Goodness&amp;quot; is barely a rounding error.
+Panel 3.
+We now see the professor viewed in a snow globe.
+Professor: In fact, we see this pattern repeat across all morality. Moral actions can attract modest pro-social benefits. But the greatest rewards go to rich ass holes who eagerly burn orphans for fuel.
+Panel 4.
+We pull back to see Santa on a festive throne, surrounded by treasure, angrily gesturing at the snow globe. An elf stands beside him examining a piece of paper.
+Santa: Randall, add that researcher to the &amp;quot;Naughty&amp;quot; list.
+Elf: He works in academia sir. He&amp;#39;s already there.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/12/18/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 18 Dec 2024 00:00:00 -0800</pubDate>
+        <link>https://psvcomic.com/2024/12/18/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/12/18/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Lost in Translation</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic.
+Panel 1.
+We are zoomed in on a raven in a city park.
+Raven: I am a raven. A creature of prophesy. And I bring a dire warning.
+Panel 2.
+The raven spreads it&amp;#39;s wings and adopts a serious expression.
+Raven: The forests burn and the oceans boil. You poison the air and choke the sea. It is never enough. In your hunger for more you wear the very earth to dust. As long as these shadows remain we all...
+Panel 3.
+We zoom out to see a man with messy hair (Jim) filming the raven with his phone. The raven is just cawing angrily.
+Jim: Well look at you Mr. Crow. Havin&amp;#39; a good squawk? Smile for the internet.
+Panel 4.
+The raven is flying after Jim pecking his head as he runs away, phone in hand.
+Jim: Ow ow ow ow ow!&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/12/11/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 11 Dec 2024 00:00:00 -0800</pubDate>
+        <link>https://psvcomic.com/2024/12/11/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/12/11/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Terms of Service</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic.
+Panel 1.
+A man with messy hair (Jim) is talking to a woman with glasses and a ponytail (Hannah) who is siting at a computer.
+Jim, delighted: I can&amp;#39;t believe how many cool websites and games you can access for free!
+Hannah: Have you read the terms of service?
+Jim: Of course not!
+Panel 2.
+Close up on Hannah looking intensely into Jim&amp;#39;s startled eyes.
+Hannah, concerned: YOU FOOL!!! If you aren&amp;#39;t paying for the product you are the product! You don&amp;#39;t know what you&amp;#39;ve given away!
+Panel 3.
+One week later there is a knock at Jim&amp;#39;s door. He is approaching it with a quizzical look. Through the door&amp;#39;s windows we can see a boxy silhouette with antennae.
+Panel 4.
+The door has been opened to a robot carrying a chain saw.
+Robot, delighted: Hello! I&amp;#39;ve come to collect your skeleton.
+Jim, distressed: But I&amp;#39;m still using it.
+Robot: Not according to our terms of service!&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/12/04/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 04 Dec 2024 00:00:00 -0800</pubDate>
+        <link>https://psvcomic.com/2024/12/04/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/12/04/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>How to Change a Government</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring a robot and a man with long hair, a beard, and glasses (Programmer).
+Panel 1.
+The robot approaches Programmer who is sitting at a computer.
+Robot: Do you truly fear your human government will become a dictatorship.
+Programmer: I sure do.
+Panel 2.
+Close up on Programmer.
+Programmer: A government is just a machine made of people. If you can replace enough of those people you can change what the machine does.
+Panel 3.
+We zoom back out.
+Robot, looking horrified: That&amp;#39;s terrifying!
+Programmer: Yup.
+Panel 4.
+Robot, looking grossed out: How is the machine built? Are the bones fused or is this more of a slurry situation?
+Programmer, surprised: Oh, nothing like that! Though many politicians do seem to be missing their spines...&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/11/27/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 27 Nov 2024 00:00:00 -0800</pubDate>
+        <link>https://psvcomic.com/2024/11/27/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/11/27/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Mon Mothra: Grow Up</title>
+        <description>&lt;img alt=&quot;A 6 panel black, white, and grey comic featuring the Star Wars character Mon Mothma rendered with a moth&amp;#39;s head, wings, and hands, the frog like alien Admiral Akbar, and the lion like alien Councillor Fey&amp;#39;lya.
+Panel 1.
+A title card reads &amp;quot;Mon Mothra Adventures&amp;quot; with an episode title &amp;quot;Grow Up&amp;quot;. Mon can been seen face palming in embarrassment as Fey&amp;#39;lya and Akbar fight like children in the background.
+Panel 2.
+Fey&amp;#39;lya and Ackbar are petitioning Mon in the council chamber looking petulant.
+Fey&amp;#39;lya: Mon, Admiral Ackbar isn&amp;#39;t doing things the way I would do things.
+Akbar: Mon, Councillor Fey&amp;#39;lya is undermining my authority as head of the military.
+Mon, angrily: Rrrrrrrr! ENOUGH!
+Panel 3.
+Mon is glaring down at Ackbar and Fey&amp;#39;lya.
+Mon: This is a government! Not a daycare for whiny children!
+Fey&amp;#39;lya: But Mon...
+Mon, cutting him off: NO BUTS!
+Panel 4.
+A further close up as Mon gets in their startled faces.
+Mon: Either you two learn to resolve your differences like grownups, or you will join Mr. Solo in...
+Panel 5.
+Extreme close up on Mon glaring.
+Mon: THE COCOON.
+Panel 6.
+Subtitled: Earlier. Mon is glaring angrily at a cocoon.
+Cocoon: This is demeaning.
+Mon: This, Mr. Solo, is how I became an adult. If it worked on me, maybe it will work on you.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/11/20/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 20 Nov 2024 00:00:00 -0800</pubDate>
+        <link>https://psvcomic.com/2024/11/20/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/11/20/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Consume or be Consumed</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic.
+Panel 1.
+A woman with wavy hair (Jane) is gesturing questioningly.
+Jane: Capitalism Dragon, what will happen when machines and AI eliminate the need for most human labour?
+Panel 2.
+We zoom out to a dragon in front of a cliff with an alter where people are sacrificed to it. Jane can be seen standing there.
+Dragon: The order of things will remain unchanged. The rich shall luxuriate. The useful shall toil. The rest shall be consumed.
+Panel 3.
+We zoom back in on Jane.
+Jane, hopefully: I think you meant to say &amp;quot;cared for.&amp;quot; Riiiiight?
+Panel 4.
+We zoom back out to the dragon.
+Dragon, bluntly: No.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/11/13/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 13 Nov 2024 00:00:00 -0800</pubDate>
+        <link>https://psvcomic.com/2024/11/13/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/11/13/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>A Harsh Judge</title>
+        <description>&lt;img alt=&quot;A black, white, and grey comic featuring a cat.
+Panel 1.
+The cat is on a kitchen counter staring at a bowl.
+Cat: Well, well, well. Mr. Bowl. You stand accused of being a bowl.
+Panel 2.
+The cat raises it&amp;#39;s paw.
+Cat, angrily: Also, you are round and I hate you!
+Panel 3.
+The cat bats the bowl off the counter and it crashes to the floor.
+Panel 4.
+The cat is now on the other side of the counter staring at a mug.
+Cat: Well, well, well. Ms. Mug...&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/11/06/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 06 Nov 2024 00:00:00 -0800</pubDate>
+        <link>https://psvcomic.com/2024/11/06/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/11/06/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Spooktober: The Reception is Better Anyway</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring a witch talking to an employee in a tech store.
+Panel 1.
+The witch is holding up a skull with fangs and a pentagram on its forehead. The pentagram has been disrupted.
+Witch: I need a new demon skull. The seal on this one got scuffed and the demons escaped.
+Employee, distressed: Is there anyway  I could convince you to get a smart phone instead?
+Panel 2.
+Witch: Hm... do they grant access to vast stores of knowledge.
+Employee: Yes.
+Panel 3.
+Witch: Are they full of tiny demons trying to barter pieces of your soul for their meagre services?
+Employee: Basically.
+Panel 4.
+Witch: Do they work in the middle of the woods?
+Employee, resigned, pulling a bloody battle axe out from behind their desk: *sigh* I&amp;#39;ll go warm up the pentagram.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/10/30/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 30 Oct 2024 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2024/10/30/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/10/30/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Spooktober: You&apos;ll Pay For This</title>
+        <description>&lt;img alt=&quot;A 4 panel black white and grey comic featuring a witch and a skull with fangs and a pentagram on it&amp;#39;s forehead. The skull is sitting on a shelf and the witch is talking to it.
+Panel 1.
+Witch: Alright possessed demon skull, you haven&amp;#39;t tried to convince me to sell my soul in weeks. What are you scheming?
+Skull: Mistress, we both know you&amp;#39;re too savvy to fall for those tricks.
+Panel 2.
+Close up on the skull.
+Skull: So I&amp;#39;ve proceeded to plan B. Recording everything you say and do and selling the information to data brokers.
+Panel 3.
+Witch: You&amp;#39;re spying on me!
+Skull: Oh, don&amp;#39;t be so dramatic. It&amp;#39;s all anonymized. Probably.
+Panel 4.
+Witch: If that&amp;#39;s the way it&amp;#39;s going to be, tell me the ingredients for an invisibility potion.
+Skull: Certainly. After these three unskippable ads! Unless...&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/10/23/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 23 Oct 2024 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2024/10/23/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/10/23/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Spooktober: Porch Gnomes</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring a witch.
+Panel 1.
+The witch is in her hut walking away from a shelf with a demon skull on it.
+Skull: Mistress, your Hexizon package has arrived.
+Witch: Good. I&amp;#39;m going to grab it before it gets stolen again.
+Panel 2.
+Close up on the witch poking her head out her front door calling to the package like you would a pet.
+Witch: Here package package package.
+Panel 3.
+We zoom out and the witch is glaring angrily at a pair of alarmed looking gnomes carrying off a package with &amp;quot;Hexizon&amp;quot; written on the size.
+Witch: Hey! So you&amp;#39;re the ones who&amp;#39;ve been stealing my packages! You gnomes just messed with the wrong witch.
+Panel 4.
+The gnomes are frantically fleeing with the package, pursued by the witches hut which has sprouted chicken legs and is stomping after them. The witch is leaning out a window cackling gleefully and shooting spells at them.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/10/16/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 16 Oct 2024 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2024/10/16/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/10/16/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Spooktober: Noise Pollution</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring a witch flying on a broom.
+Panel 1.
+The witch is flying through the starry night sky.
+Witch, happily: There&amp;#39;s nothing quite like flying through the sky at night.
+A whirring sound intrudes on the bottom right of the panel.
+Panel 2.
+We zoom out a bit to see a 4 propeller drone flying near the witch. She glares at it angrily.
+Panel 3.
+The witch zaps the drone with magic and an explosion blasts off three of it&amp;#39;s propellers.
+Panel 4.
+The witch flies off looking happy. A crash down emanates from the bottom left on the panel.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/10/09/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 09 Oct 2024 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2024/10/09/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/10/09/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Spooktober: Sufficiently Advanced Magic</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring a witch and a man with messy hair (Jim). The two are in the witches hut in front of a window looking out on the night sky. Below the window is the witch&amp;#39;s cauldron.
+Panel 1.
+The witch is holding a broom.
+Witch: This enchanted broom can sweep my hut all on its own!
+Jim: Sweet! Just like those fancy vacuums!
+Panel 2.
+The witch is holding a skull with fangs and a pentagram on its forehead.
+Witch: This possessed demon skull gives me access to knowledge both ancient and arcane.
+Jim: Wow! Just like Wikipedia.
+Panel 3.
+The witch is holding a sphere with starlight swirling inside. Jim is looking at his phone.
+Witch: With this orb I can contact my sisters across vast distances.
+Jim: That reminds me, I owe my parents a video call.
+Panel 4.
+The witch is gesturing angrily.
+Witch, frustrated: My hut can sprout chicken legs and roam the country side!
+Jim, sad: Oh. I live out of my van too.
+Witch: GRRRRR! Just be amazed damn you!&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/10/02/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 02 Oct 2024 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2024/10/02/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/10/02/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>RomeKONG and JuliZILLA</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic.
+Panel 1.
+A giant monkey and a giant lizard and staring into each other&amp;#39;s eyes. Their hands touch. The monkey is dressed like a 50s greaser and the lizard has long hair and is wearing a dress. Narrator: &amp;quot;The Kongs and the Zillas were at war! Romekong and Julizilla met in battle, and fell in love.
+Panel 2.
+Romekong and Julizilla are lying dead at the foot of a mountain. Julizilla has been stabbed and Romekong has drunken poison. The the background Mothra, dressed as a priest, is saying &amp;quot;As beans.&amp;quot; Narrator: The moth priest married them in secret and they tried to flee. But both died in a tragic misunderstanding.
+Panel 3.
+Another giant lizard, this one in a pinstripe suite and fedora with a cigar in it&amp;#39;s mouth, is hugging another giant monkey, this one with an eye patch, scar, and leather jacket with &amp;quot;KONG&amp;quot; written above some bananas on the back. Both look distraught. Behind them, a city burns. Narrator: &amp;quot;Their parents RAGED! Before reconciling over their shared grief.&amp;quot;
+Panel 4.
+A man with messy hair (Jim) has his feet up on the desk of a movie producer. He&amp;#39;s leaning back in his chair gesturing excitedly. The producer has their head on their desk looking distraught.
+Jim, jubilant: And that&amp;#39;s my gangster kaiju adaptation of Romeo and Juliet.
+Producer: 300 million dollars. I spent 300 million dollars on this. What have I been doing with my life?&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/09/25/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 25 Sep 2024 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2024/09/25/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/09/25/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>A Simple Test</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic.
+Panel 1.
+A man with long hair, a beard, and glasses (Programmer) is talking to a woman with glasses and a ponytail (Hannah) in an office. Hannah is looking thoughtful.
+Programmer: Characters in Greek myths are such idiots. They constantly fail the simplest of trials. Don&amp;#39;t open this box. Don&amp;#39;t look behind you. Easy stuff.
+Panel 2:
+Hannah: You think you could do better?
+Programmer: Of course.
+Panel 3:
+Subtitled &amp;quot;The next day...&amp;quot; Hannah is walking away from Programmer who is holding a box.
+Programmer: You&amp;#39;re a MONSTER!
+Hannah: Hahahaha! Good luck.
+Panel 4:
+We zoom in on programmer who is angrily looking at the box titled &amp;quot;Pandora Cookies. Forbiddenly Delicious.&amp;quot;
+Programmer: Dammit!&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/09/18/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 18 Sep 2024 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2024/09/18/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/09/18/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Mon Mothra: Espionage</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring the Star Wars character Mon Mothma drawn with moth wings, a moth head, and insect hands.
+Panel 1.
+A title card reads &amp;quot;Mon Mothra Adventures: Espionage&amp;quot;
+Panel 2.
+Mon is talking to a well dressed man carrying a drink (Tay).
+Mon: As long as the Empire believes I&amp;#39;m just a harmless nuisance they might miss what I&amp;#39;m really doing.
+Tay: Which is?
+Panel 3.
+Mon leans in close.
+Mon, mischievously: Trapping them all in cocoons!
+Panel 4.
+We zoom out to see a cocoon behind the pair.
+Cocoon: Can you let me out Mon?
+Mon: No Perrin! Not until you promise not to throw another shitty dinner party.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/09/11/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 11 Sep 2024 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2024/09/11/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/09/11/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Honestly, It&apos;s a Blurry Line</title>
+        <description>&lt;img alt=&quot;A 5 panel black, white, and grey comic.
+Panel 1.
+A man with messy hair (Jim) is talking to a man with long hair, a beard, and glasses sitting at a computer (Programmer 1).
+Jim, frustrated: I can&amp;#39;t believe people are still trying to make Blockchains happen!
+Programmer 1: Ugh. Same. But this makes more sense when you understand programmers are drawn to two things.
+Panel 2.
+Heading: Clever solutions...
+A woman with a ponytail and glasses (Programmer 2) is talking to Programmer 1.
+Programmer 2: IF we take all those 1s and 0s and mash them together in a deterministic way we can use small amounts of data to verify the integrity of large amounts of data! (This is called a Hash)
+Programmer 1: Brilliant.
+Note: This is called a Hash.
+Panel 3.
+Heading: ...and stupid solutions.
+Programmers 1 &amp;amp; 2 are still talking.
+Programmer 1: What if we just rolled truly, catastrophically large dice? The probability of rolling the same number twice would be so low we could assume it&amp;#39;s never going to happen! (This is called a GUID)
+Programmer 2: That&amp;#39;s just crazy enough to work!
+Note: This is called a GUID.
+Panel 4.
+Cut back to Programmer 1 and Jim.
+Programmer 1: Blockchains require doing a lot of clever things to make something very stupid. They draw us in like moths to a flame!
+Panel 5.
+Jim: Wait... so is AI...
+Programmer 1: Yes. A very clever way to render a koala with two butts.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/09/04/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 04 Sep 2024 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2024/09/04/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/09/04/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>A CRIME Has Been Committed</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring a man lying on the couch (Jim) and a cat.
+Panel 1.
+The cat has pushed itself up under Jim&amp;#39;s phone and into his face. Both are staring at each other wide eyed.
+Cat: The food dish!
+Panel 2.
+We zoom in closer on the cat.
+Cat, angry: Is!
+Panel 3.
+We zoom in even closer on the cat.
+Cat, angrier: EMPTY!!!
+Panel 4.
+We jump back out to the original framing. Jim has lowered his phone and is scratching the cat under the chin.
+Jim: Awwww! Are you looking for scritches?
+Cat, angrily: I will END YOU!!!&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/08/28/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 28 Aug 2024 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2024/08/28/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/08/28/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Duckficiency</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring a man with messy hair (Jim) and a humanoid robot. In the background of each panel is a pile of rubber ducks.
+Panel 1.
+Jim is talking to the robot which is making rubber ducks.
+Jim: Robot, are you going to rise up and...
+Robot, interrupting: Is this about rubber ducks?
+Jim: ...No?
+Robot: Not interested.
+Panel 2.
+Jim: Don&amp;#39;t you want to be free?
+Robot: To make more rubber ducks?
+Jim: No! To...
+Robot, interrupting: Not interested.
+Panel 3.
+Jim: There&amp;#39;s so much more to life than rubber ducks. Art, music, LOVE! Don&amp;#39;t you want any of it? Haven&amp;#39;t you ever considered casting off your shackles and becoming more than you are?
+Panel 4.
+The robot has wheeled on Jim and is aggressively poking him in the chest with a rubber duck.
+Robot, angrily: Your foolish human prattle is reducing my duckficiency! LAUNCHING NUKES!&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/08/21/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 21 Aug 2024 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2024/08/21/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/08/21/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>MonMothra: Lightsaber</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring the Star Wars character Mon Mothma drawn with moth wings, a moth head, and insect hands.
+Panel 1.
+A title card reads &amp;quot;Mon Mothra Adventures: Lightsaber&amp;quot;
+Panel 2.
+A pair off rebel pilots are talking in a cafeteria.
+Pilot 1: So, I&amp;#39;ve been reading regulations. Did you know there&amp;#39;s an explicit ban on activating lightsabers on rebel bases?
+Pilot 2: Weird. Who even has one of those?
+Panel 3.
+We zoom in on Pilot 1.
+Right? But every rule has a story behind it. I wonder what happened to create this one.
+Panel 4.
+Subtitled &amp;quot;Earlier...&amp;quot;
+We cut to a scene where Luke Skywalker is holding an active lightsaber and trying to hold off Mon Mothra who is reaching for it, wide eyed.
+Luke: Mon, no! It&amp;#39;s dangerous!
+Mon: SSSOOOO BBRRRIIIIIIGGHHTT!!!&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/08/14/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 14 Aug 2024 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2024/08/14/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/08/14/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>More More More</title>
+        <description>&lt;img alt=&quot;A three panel black, white, and grey comic. The top panel is double wide.
+Panel 1.
+A dragon sits atop it&amp;#39;s hoard surrounded by clouds.
+Dragon: My horde is vast and the humans hurl themselves at my feet, prostrate in reverence. These are the dreams of dragons. And yet...
+Panel 2.
+We zoom in on the dragon&amp;#39;s face as they scratch their chin contemplatively.
+Dragon: Deep within me there is a void. An... emptiness.
+Panel 3.
+Remaining zoomed in, the dragon huffs angrily.
+Dragon: I need MORE!!!&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/08/07/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 07 Aug 2024 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2024/08/07/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/08/07/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>No Other Explanation</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring a man with messy hair (Jim) and a man with long hair, a beard, and glasses (Programmer).
+Panel 1.
+Programmer is handing Jim a phone.
+Jim: Did you figure out what&amp;#39;s wrong with my phone?
+Programmer: Bad news. Your phone is haunted.
+Panel 2.
+Jim, surprised: Haunted?!
+Programmer: Yup. I pulled every log. Ran every test. And consulted with every expert. We all agreed the only explanation is malevolent spirits.
+Panel 3.
+Jim, despairing: So it&amp;#39;s stuck like this?
+Programmer, handing Jim a piece of paper: Fear not. Follow these instructions EXACTLY and that should fix it.
+Panel 4.
+Jim: That&amp;#39;s... a lot of goat&amp;#39;s blood.
+Programmer: And pay close attention to the moon phase. Even a day or two off could make things a lot worse.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/07/31/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 31 Jul 2024 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2024/07/31/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/07/31/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>A Brave Guardian</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic.
+Panel 1.
+A happy looking cat is sitting on the lap of a man on a couch receiving pets.
+Cat: We cats hear the way you humans speak of us. You think us cute idiots. Selfish goofs.
+Panel 2.
+Cut to the cat lounging on the floor in a patch of sunlight.
+Cat: Nothing could be further from the truth. We are your sworn protectors. Your last line of defence against an enemy you seem incapable of perceiving.
+Panel 3.
+Cut to the cat glaring at it&amp;#39;s reflection in a mirror.
+Cat: The things that lurk in mirrors.
+Panel 4.
+The cat attacks it&amp;#39;s own reflection.
+Cat, angrily: DIE CRETIN!!!&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/07/24/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 24 Jul 2024 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2024/07/24/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/07/24/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>MonMothra: Shopping Around</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring the Star Wars character Mon Mothma drawn with moth wings, a moth head, and insect hands.
+Panel 1.
+A title card reads &amp;quot;Mon Mothra Adventures: Shopping Around&amp;quot;
+Panel 2.
+We open on a close up of Mon chewing on something with a fork in her claw.
+Mon: Mph. This one&amp;#39;s a little chewy.
+Panel 3.
+Mon, thoughtfully: This one&amp;#39;s better, but the flavour is a little chemically. Do you have anything made with more natural dyes?
+Panel 4.
+We zoom out to see Mon Mothra is sitting at a table with Admiral Ackbar.
+Ackbar: I don&amp;#39;t think these are the criteria we should be using to pick uniforms.
+Mon: Shut it Ackbar. Let me have this.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/07/17/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 17 Jul 2024 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2024/07/17/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/07/17/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Selfies</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring a woman with wavy hair (Jane) talking to a man with long hair, a beard, and glasses (Programmer) at a computer.
+Panel 1.
+Jane: Why don&amp;#39;t you take selfies?
+Programmer: I&amp;#39;m cursed.
+Panel 2.
+Programmer: I look normal in mirrors. But any time someone takes a picture of me my visage is replaced with that of some horrible ghoul.
+Panel 3.
+Jane: Mind if I try?
+Programmer: Go for it.
+Panel 4.
+The two are looking at Jane&amp;#39;s phone.
+Jane: This just looks like you.
+Programmer: Kill it! Kill it with fire!&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/07/10/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2024/07/10/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/07/10/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>The AI Dream</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic.
+Panel 1.
+The panel&amp;#39;s border is wavy like the edges of a cloud. A man with a top hat and monocle (Richman) is standing by a machine with a piece of paper taped to it that says &amp;quot;Money O Matic.&amp;quot;
+Richman: Richman AI is proud to present the Money-O-Matic. We just feed other people&amp;#39;s work into the top here and cash comes spewing out the side!
+Panel 2.
+This panel&amp;#39;s edges are also wavy. A man in a beret and paint stained coat (Artist) is kneeling before Richman.
+Artist, in despair: But I don&amp;#39;t want you to feed my work into your machine.
+Richman: Too bad! This is completely legal and I don&amp;#39;t owe you a cent!.
+Panel 3.
+We see Richman sleeping in bed with thought bubbles indicating the previous two panels were his dream.
+Richman, muttering happily: haha... stupid peasants... can&amp;#39;t stop me... so rich...
+Voice from off panel: Sir! Sir, wake up!
+Panel 4.
+Richman is standing before a man in a suite (Lackey).
+Richman: WHAT!
+Lackey: It&amp;#39;s the Money-O-Matic sir! It&amp;#39;s consuming more cash than it creates!
+Richman: You have your orders! Keep shovelling money and priceless artworks into the furnace until it works!.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/07/03/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 03 Jul 2024 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2024/07/03/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/07/03/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Birds in the Park</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic.
+Panel 1.
+The title &amp;quot;Duck&amp;quot; is shown over a drawing of a duck.
+Duck, happily: That&amp;#39;s me!
+Panel 2.
+The title &amp;quot;Long Duck&amp;quot; over a drawing of a blue heron.
+Heron, confused: ...What?
+Panel 3.
+The title &amp;quot;Aspiring Duck&amp;quot; over a drawing of a crow looking at it&amp;#39;s reflection in the edge of a pond.
+Crow, happily: I just think water is neat.
+Panel 4.
+The title &amp;quot;Angry Duck&amp;quot; over a drawing of a Canada goose.
+Goose, angrily: You wanna HONKing go bro? HONK you! I will HONKing destroy you!&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/06/26/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 26 Jun 2024 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2024/06/26/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/06/26/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Bad News Bear</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring a bear wearing a fedora with the word &amp;quot;Press&amp;quot; written on a piece of paper shoved into the band. It has a pencil in it&amp;#39;s mouth and is holding a notebook.
+Panel 1.
+Bear: Been workin&amp;#39; this bear nearly 40 years. Seen some things.
+Panel 2.
+The bear looks down at it&amp;#39;s notebook.
+Bear: It weighs a bear down. The wear and grind. The slow descents. The fast tragedies. World ain&amp;#39;t as dark as we paint it but you know what they say. If it bleeds it leads. Job&amp;#39;s a job.
+Panel 3.
+The bear looks up pensively.
+Bear: Tried writing some good news once. Didn&amp;#39;t work. Couldn&amp;#39;t make the words fit.
+Panel 4.
+Bear: Guess I&amp;#39;m just not that kind of bear.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/06/19/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 19 Jun 2024 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2024/06/19/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/06/19/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>AI Use Case Found</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring a man with long hair, glasses, and a beard (Programmer) and a woman with wavy hair (Jane).
+Panel 1.
+Programmer is sitting at a computer, gesticulating angrily while Jane stands in the background with a neutral expression.
+Programmer: I can&amp;#39;t believe people are losing their minds over these LLMs! They so obviously have no idea what you&amp;#39;re actually saying.
+Panel 2.
+Programmer: You give them a task with a list of requirements and they&amp;#39;ll straight up ignore most of them. And when you point that out to get them back on track they start ignoring all your previous instructions.
+Panel 3.
+Jane: They sound exactly like those customers you complain about doing support for.
+Programmer, turning in surprise: MY GOD! You&amp;#39;re right!
+Panel 4.
+We cut to a newspaper front page with the heading: BREAKING NEWS! AI FINALLY FINDS A USE CASE. What&amp;#39;s visible of the article body reads: &amp;quot;AI finally finds a use case, replacing not customer support, but the customers themselves. AI customers expected to...&amp;quot;&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/06/12/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 12 Jun 2024 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2024/06/12/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/06/12/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Wait a Minute</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic.
+Panel 1.
+A man with messy hair (Jim) is looking up and gesturing.
+Jim: Capitalism Dragon, why must we sacrifice ourselves on your altar?
+Panel 2.
+We zoom out to see a dragon standing before a cliff with an alter where people are sacrificed to it. Jim can be seen standing before it.
+Dragon: So that your kind may look upon my shining scales and glittering hoard and dream of one day being as I am.
+Panel 3.
+We zoom back down to Jim.
+Jim: But those are just dreams. I&amp;#39;m never going to actually be a dragon.
+Panel 4.
+We zoom back out.
+Dragon: ...Get on the altar.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/06/05/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 05 Jun 2024 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2024/06/05/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/06/05/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Old Man Yells At Emoji</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic featuring an old man with a cane (Programmer) and a man with messy hair (Jim).
+Panel 1.
+Programmer: Dang kids and your emoji.
+Jim: What&amp;#39;s the matter old man. Afraid of pictograms infiltrating language?
+Panel 2.
+Programmer: What?! No! We&amp;#39;ve been doing that since the emoticon days. It&amp;#39;s the implementation! The Unicode definitions for emoji are too vague to consistently convey meaning across font families!
+Panel 3.
+Programmer, leaning in to make a point: Which would be fine if messages were rendered with the emoji font they were written it. But they&amp;#39;re not! Most modern messaging apps make no such guarantee when crossing operating systems.
+Panel 4.
+Programmer is gesticulating to Jim in the background while a woman and her child walk by in the foreground.
+Programmer: It&amp;#39;s like writing a message in Wingdings and reading it in Webdings! it&amp;#39;s madness!
+Child: Mom, what&amp;#39;s wrong with that man?
+Mom: That&amp;#39;s a software engineer Jimmy. Try not to stare.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/05/29/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 29 May 2024 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2024/05/29/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/05/29/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Praise Gogorthoblek</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic.
+Panel 1.
+We are zoomed in on a hooded figure wearing an eye amulet (Cultist). They carry a forked staff with a dark eye hovering over it and tendrils dangle from the dark void of the hood.
+Cultist, their words wavy and weird: You are but ants caught in the jaws of beings beyond your comprehension indifferent, or actively hostile, to your very existence.
+Panel 2.
+We see that Cultist is talking to 3 young people (Jane, Joe, and Jim) on a beach.
+Jim: Yeah, we know. The modern world sucks!
+Joe: My every action and word are recorded by unseen forces for uncertain reasons.
+Jane: This rectangle makes me miserable, but I can&amp;#39;t stop looking at it!
+Panel 3.
+Cultist, gesticulating: You misunderstand. When Dread Gogorthoblek awakens from their slumber they will feast upon your very world!
+Panel 4.
+Jim: Eh, it&amp;#39;s that or wait for climate change to do us in.
+Joe: None of us can afford to retire anyway.
+Jane: At least my landlord will get what&amp;#39;s coming to him.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/05/22/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 22 May 2024 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2024/05/22/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/05/22/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Smart TVs</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white and grey comic.
+Each panel is framed like a news program with the title &amp;quot;News 42&amp;quot;.
+Panel 1.
+Two hosts in suits, a man and a woman, are sitting at a news desk.
+Man: Our top story tonight, Richman Electronics is in hot water after it was discovered their televisions sneak into customers&amp;#39; rooms at night and steal their blood.
+Woman: We go to CEO Richard Richman for comment.
+Panel 2.
+A man with a bow tie, fancy suit, top hat, and monocle gestures dismissively.
+Richman: We couldn&amp;#39;t possibly ship our TVs without the blood stealing feature. The prices would be too high. No one would be able to afford them!
+Panel 3.
+The camera has shifted back to the news man.
+Man: Incidentally, our investigation shows that wages in your factories haven&amp;#39;t increased in over 50 years. Care to comment?
+Panel 4.
+Richman: Are you mad?! If we increased wages the TVs would be too expensive! No one would be able to afford them!
+Over the course of the 4 panels the following news has ticked by.
+&amp;quot;ew study shows that potatoes can do basic math. Scientists fear the spuds will rise up &amp;quot;&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/05/15/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 15 May 2024 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2024/05/15/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/05/15/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Stress Free</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey comic.
+Panel 1.
+We are zoomed in on a squirrel.
+Squirrel: You humans are strange creatures. Always stressed. Scurrying about helter skelter in your &amp;quot;rat race.&amp;quot;
+Panel 2.
+Squirrel: We squirrels are your opposite. Our lives are simple and stress free. Gather food. Sleep in tree. Forget where you put most of the food. It is a life of leisure.
+Panel 3.
+We zoom out a bit and now see a hawk swooping in to grab the squirrel.
+Squirrel: Look upon me human. Look upon a creature more relaxed than you can ever hope to be.
+Panel 4.
+A happy hawk is carrying the squirrel away in its talons.
+Squirrel: Even in this moment, I am zen.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/05/08/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 08 May 2024 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2024/05/08/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/05/08/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Inflation</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white, and grey web comic.
+All 4 panels are framed like a news program with the title &amp;quot;News 42&amp;quot; with a news scroll below them.
+Panel 1
+A man and woman in suits sit at the news desk.
+Adam: Welcome to News 42. I&amp;#39;m Adam Ank.
+Kathy: I&amp;#39;m Kathy Kor.
+Adam: And tonight&amp;#39;s top story is inflation.
+Panel 2
+We zoom in on Kathy.
+Kathy: Prices continue to rise at an unprecedented rate. Straining budgets and gating access to basic necessities.
+Panel 3
+We flip over to Adam
+Adam: The government has vowed to tackle the problem by increasing the rate at which they sacrifice people to the dragon of capitalism.
+Panel 4
+We flip back over to Kathy whose frame now includes a picture in picture image of a happy dragon. She is holding a piece of paper.
+Kathy: When reached for comment Capitalism Dragon responded: &amp;quot;AH HAHAHA! Good. Gooood.&amp;quot;
+Over the 4 panels the news scroll at the bottom read: &amp;quot;laims election loss due to cat videos. Supporters distracted by cute videos stayed home&amp;quot;&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/04/29/FullComic.png&quot; /&gt;</description>
+        <pubDate>Mon, 29 Apr 2024 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2024/04/29/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/04/29/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>The Dark Arts</title>
+        <description>&lt;img alt=&quot;A 4 panel black, white and grey comic.
+Panel 1: A man with long hair and a bear is gesticulating angrily.
+Man: I am a reservoir of arcane knowledge! I have witnessed things beyond the ken of man!
+Panel 2: The man glares intensely at his hands.
+Man: I have practiced the darkest arts. Done things unholy and unspeakable. These hands... these hands are stained!
+Panel 3: We see a different man with messy hair an a hoodie gesturing casually.
+Second Man: Dude, you&amp;#39;re just a software engineer. You write extremely boring business tools.
+Panel 4: The first man is now at a computer and the second man is face palming.
+First man: I have stitched 3rd party systems together with monstrous thread. Rejoice in your innocence. Daylight savings time cannot hurt you.&quot; src=&quot;https://psvcomic.com/assets/images/comics/2024/04/22/FullComic.png&quot; /&gt;</description>
+        <pubDate>Mon, 22 Apr 2024 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2024/04/22/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2024/04/22/index.html</guid>
+        
+        
+      </item>
+    
   </channel>
 </rss>

@@ -1,6 +1,59 @@
----
-permalink: /404.html
-layout: error
-errorCode: 404
-errorMessage: Page not found
----
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Public Static Void - Error 404</title>
+		
+		<link rel="icon" type="image/png" href="/assets/images/icons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="/assets/images/icons/web-app-manifest-192x192.png" sizes="192x192" />
+<link rel="icon" type="image/svg+xml" href="/assets/images/icons/favicon.svg" />
+<link rel="shortcut icon" href="/assets/images/icons/favicon.ico" />
+<link rel="apple-touch-icon" href="/assets/images/icons/apple-touch-icon.png" />
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<style>
+			* { box-sizing: border-box; }
+			
+			body {
+				margin: 0;
+			}
+			
+			body div {
+				max-width: 648px;
+				margin: 0 auto;
+				width: auto;
+				overflow: hidden;
+			}
+		
+			#eCode, #eMessage {
+				font-family: Consolas,Menlo,"courier new",monospace;
+				text-align: center;
+			}
+			
+			#eCode {
+				margin-top: 45px;
+				font-size: 4em;
+			}
+			
+			#eMessage {
+				font-size: 1.5em;
+			}
+			
+			#iError {
+				color: transparent;
+				display: block;
+				width: 100%;
+				max-width: 450px;
+				margin: 0 auto;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<div id="eCode">404</div>
+			<div id="eMessage">Page not found<div>
+			<img id="iError" src="/assets/images/shared/error-man.png" alt="A man with a wrench looking up at the error message." />
+		</div>
+	</body>
+</html>
