@@ -5,9 +5,34 @@
     <description>Just a dumb little comic about technology, society, and whatever other silly thing I happen to doodle.</description>
     <link>https://psvcomic.com/</link>
     <atom:link href="https://psvcomic.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 04 Mar 2026 08:38:08 -0800</pubDate>
-    <lastBuildDate>Wed, 04 Mar 2026 08:38:08 -0800</lastBuildDate>
+    <pubDate>Wed, 11 Mar 2026 07:29:09 -0700</pubDate>
+    <lastBuildDate>Wed, 11 Mar 2026 07:29:09 -0700</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>The Old Ways</title>
+        <description>&lt;img alt=&quot;A 4 panel grayscale comic featuring a man with long hair, a beard, and glasses (Programmer) and a woman with a pony tail (Hannah).
+Panel 1.
+Programmer is walking past Hannah at an office water cooler wearing a backpack with rope and carrying a club.
+Hannah: What&amp;#39;s with all the hardware.
+Programmer: I&amp;#39;m going to do some web dev.
+Panel 2.
+Hannah, cheerily: Obviously. But why all the blunt instruments?
+Programmer, confused: What do you mean? This is the standard Javascript toolkit.
+Panel 3.
+Hannah, amused: You know we have much sharper tools these days? Want to try some React?
+Programmer, considering: Hm... Thanks but I think I&amp;#39;ll stick to what I know.
+Hannah: Suit yourself.
+Panel 4.
+Programmer is in the foreground, battered and bruised, wielding his club against a Firefox icon blocking with a sword. A Chrome icon is tied up hanging from the ceiling. A Safari icon is diving at his back with a knife. Hannah watches amused in the background.
+Hannah: There are frameworks that would make this easier!
+Programmer: I&amp;#39;ve... gah... got this!&quot; src=&quot;https://psvcomic.com/assets/images/comics/2026/03/11/FullComic.png&quot; /&gt;</description>
+        <pubDate>Wed, 11 Mar 2026 00:00:00 -0700</pubDate>
+        <link>https://psvcomic.com/2026/03/11/index.html</link>
+        <guid isPermaLink="true">https://psvcomic.com/2026/03/11/index.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Everything Ends</title>
