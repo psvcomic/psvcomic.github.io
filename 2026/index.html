@@ -257,27 +257,34 @@
 				color: #000000;
 			}
 			
-			#archive-nav {
+			.archive-nav {
 				display: block;
 				max-width: 648px;
 				width: 100%;
 				margin: 0 auto;
-				padding: 36px 64px 24px;
 				overflow: hidden;
 				text-align: center;
 				font-family: Consolas,Menlo,"courier new",monospace;
 				font-size: 2em;
 			}
+
+			.archive-nav-top {
+				padding: 36px 64px 24px;
+			}
+
+			.archive-nav-bottom {
+				padding: 24px 64px 36px;
+			}
 			
-			#archive-nav-prev, #archive-nav-next {
+			.archive-nav-prev, .archive-nav-next {
 				height: 24px;
 			}
 			
-			#archive-nav-prev {
+			.archive-nav-prev {
 				float: left;
 			}
 			
-			#archive-nav-next {
+			.archive-nav-next {
 				float: right;
 			}
 			
@@ -371,14 +378,14 @@
 			
 
 
-<div id="archive-nav">
-	<a id="archive-nav-prev" 
+<div class="archive-nav archive-nav-top">
+	<a class="archive-nav-prev" 
 	
 	href="/2025/">
 		<img alt="Single arrow pointing left." src="/assets/images/shared/previous.svg" alt="Previous">
 	</a>
 	2026
-	<a id="archive-nav-next" 
+	<a class="archive-nav-next" 
 	
 	style="visibility: hidden;"
 	
@@ -976,6 +983,21 @@
 
 </div>
 </article>
+<div class="archive-nav archive-nav-bottom">
+	<a class="archive-nav-prev" 
+	
+	href="/2025/">
+		<img alt="Single arrow pointing left." src="/assets/images/shared/previous.svg" alt="Previous">
+	</a>
+	2026
+	<a class="archive-nav-next" 
+	
+	style="visibility: hidden;"
+	
+	href="/2027/">
+		<img alt="Single arrow pointing right."src="/assets/images/shared/next.svg" alt="Next">
+	</a>
+</div>
 		</main>
 		<div id="pageFooter">
 			<div id="pageFooterLeft">
