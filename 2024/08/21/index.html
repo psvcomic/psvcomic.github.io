@@ -24,318 +24,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="alternate" type="application/rss+xml" href="https://psvcomic.com/feed.xml" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<style>
-			* { box-sizing: border-box; }
-		
-			body {
-				margin: 0;
-				padding: 0;
-			}
-		
-			nav .wrapper { padding: 0; }
-			nav h5 a span { display: none; }
-			
-			header, main, #pageFooter {
-				max-width: 1080px;
-				margin: 0 auto;
-				width: auto;
-			}
-			
-			img {
-				/* This stops Firefox from
-				flasing alt text while
-				images load */
-				color: transparent;
-			}
-			
-			header, .comicNav {
-				-webkit-user-select: none;
-				-ms-user-select: none;
-				user-select: none;
-			}
-			
-			nav {
-				max-width: 1080px;
-				position: relative;
-				overflow: hidden;
-				border-bottom: 1px solid #e5e5e5;
-			}
-			
-			nav h5.title {
-				display: inline;
-				max-width: 100%;
-				margin: 0;
-				float: left;
-			}
-			
-			nav h5.title img {
-				display: block;
-				height: 80px;
-			}
-			
-			#topMenu {
-				float: right;
-				overflow: hidden;
-			}
-			
-			#topMenu a {
-				float: left;
-				display: block;
-				text-align: center;
-				align-content: center;
-				text-decoration: none;
-				color: #4d4d4d;
-				height: 80px;
-				padding: 0 16px;
-				font-family: Consolas,Menlo,"courier new",monospace;
-			}
-			
-			#topMenu a:hover {
-				background-color: #e5e5e5;
-			}
-			
-			#topMenu .icon {
-				display: none;
-				width: 80px;
-			}
-			
-			article {
-				display: block;
-				max-width: 648px;
-				width: 100%;
-				margin: 0 auto;
-			}
-			
-			img.comic {
-				display: block;
-				width: 100%
-			}
-			
-			img.cSquare {
-				aspect-ratio: 1 / 1;
-			}
-			
-			img.cStacked {
-				aspect-ratio: 940 / 901;
-			}
-			
-			img.c4Titled {
-				aspect-ratio: 940 / 1020;
-			}
-			
-			img.c6Paneled {
-				aspect-ratio: 940 / 1400;
-			}
-			
-			img.c6Titled {
-				aspect-ratio: 940 / 1480;
-			}
-			
-			
-			.fullComic { display: block; }
-			.stackedComic { display: none; }
-			
-			@media screen and (max-width: 600px) {
-				.fullComic { display: none; }
-				.stackedComic { display: block; }
-				#topMenu a { display: none; }
-				#topMenu a.icon {
-					float: right;
-					display: block;
-				}
-			}
-			
-			@media screen and (max-width: 600px) {
-				#topMenu.responsive {
-					float: right;
-					width: 100%
-				}
-				#topMenu.responsive a.icon {
-					position: absolute;
-					right: 0;
-					top: 0;
-				}
-				#topMenu.responsive a {
-					float: none;
-					display: block;
-				}
-			}
-			
-			div.comicNav {
-				display: block;
-				max-width: 648px;
-				width: 100%;
-				margin: 0 auto;
-				overflow: hidden;
-				text-align: center;
-			}
-			
-			#comicNavTop {
-				padding: 36px 64px 8px;
-			}
-			
-			#comicNavBottom {
-				padding: 24px 64px 36px;
-			}
-			
-			div.comicNavLeft, div.comicNavRight {
-				height: 24px;
-			}
-			
-			div.comicNavLeft {
-				float: left;
-			}
-			
-			div.comicNavRight {
-				float: right;
-			}
-			
-			
-			
-			
-			
-			a.comicNavButton {
-				text-decoration: none;
-			}
-			
-			img.comicNavArrow {
-				display: inline-block;
-				height: 24px;
-			}
-			
-			.comicNavPrevious {
-				margin-left: 24px;
-			}
-			
-			.comicNavNext {
-				margin-right: 24px;
-			}
-			
-			.timestamp {
-				width: 100%;
-				text-align: center;
-				font-size: 0.75em;
-				font-family: Consolas,Menlo,"courier new",monospace;
-				margin-bottom: 0px;
-			}
-			
-			.numtitle {
-				width: 100%;
-				text-align: center;
-				font-size: 0.5em;
-				font-family: Consolas,Menlo,"courier new",monospace;
-				margin-bottom: 24px;
-			}
-			
-			#pageFooter {
-				overflow: hidden;
-				border-top: 1px solid #e5e5e5;
-				font-family: Consolas,Menlo,"courier new",monospace;
-				font-size: 0.6em;
-				padding: 24px;
-				margin-top: auto;
-			}
-			
-			#pageFooterLeft {
-				float: left;
-			}
-			
-			#pageFooterRight {
-				float: right;
-			}
-			
-			#pageFooterRight a {
-				text-decoration: none;
-				color: #000000;
-			}
-			
-			.archive-nav {
-				display: block;
-				max-width: 648px;
-				width: 100%;
-				margin: 0 auto;
-				overflow: hidden;
-				text-align: center;
-				font-family: Consolas,Menlo,"courier new",monospace;
-				font-size: 2em;
-			}
-
-			.archive-nav-top {
-				padding: 36px 64px 24px;
-			}
-
-			.archive-nav-bottom {
-				padding: 24px 64px 36px;
-			}
-			
-			.archive-nav-prev, .archive-nav-next {
-				height: 24px;
-			}
-			
-			.archive-nav-prev {
-				float: left;
-			}
-			
-			.archive-nav-next {
-				float: right;
-			}
-			
-			.archive-content {
-				display: block;
-				max-width: 648px;
-				width: 100%;
-				margin: 0 auto;
-				overflow: hidden;
-				text-align: center;
-				padding: 0 12px;
-			}
-			
-			@media screen and (max-width: 648px) {
-				.archive-content {
-					max-width: 492px;
-				}
-			}
-			
-			@media screen and (max-width: 492px) {
-				.archive-content {
-					max-width: 336px;
-				}
-			}
-			
-			@media screen and (max-width: 336px) {
-				.archive-content {
-					max-width: 180px;
-				}
-			}
-			
-			.archive-content a {
-				display: block;
-				text-decoration: none;
-				color: black;
-			}
-			
-			.archived-comic {
-				display: block;
-				float: left;
-				width: 156px;
-				margin: 0 0 24px;
-			}
-			
-			.archive-image {
-				display: block;
-				aspect-ratio: 1; 
-			}
-			
-			.archive-image img {
-				display: block;
-				width: 100%;
-			}
-			
-			.archive-date {
-				font-family: Consolas,Menlo,"courier new",monospace;
-				font-size: 1em;
-			}
-		</style>
+		<link rel="stylesheet" href="/styles.css">
 		<script>
 			function toggleMenu() {
 				var x = document.getElementById("topMenu");
@@ -605,7 +294,9 @@
 		
 		
 <div class="comicNav" id="comicNavTop">
-	<div class="comicNavLeft">
+	
+<div class="comicNavLeft">
+
 	<a class="comicNavButton comicNavFirst" href="/2024/04/22/" title="First">
 		<img class="comicNavArrow" alt="Double arrows pointing left."  src="/assets/images/shared/first.svg" alt="Go To First">
 	</a>
@@ -616,7 +307,10 @@
 <a class="comicNavButton comicNavRandom" href="/random.html" title="Random">
 	<img class="comicNavArrow" alt="A single die." src="/assets/images/shared/random.svg" alt="Random">
 </a>
+
+
 <div class="comicNavRight">
+
 	<a class="comicNavButton comicNavNext" href="/2024/08/28/" title="Next">
 		<img class="comicNavArrow"  alt="Single arrow pointing right."src="/assets/images/shared/next.svg" alt="Next">
 	</a>
@@ -670,7 +364,9 @@ Robot, angrily: Your foolish human prattle is reducing my duckficiency! LAUNCHIN
 
 </article>
 <div class="comicNav" id="comicNavBottom">
-	<div class="comicNavLeft">
+	
+<div class="comicNavLeft">
+
 	<a class="comicNavButton comicNavFirst" href="/2024/04/22/" title="First">
 		<img class="comicNavArrow" alt="Double arrows pointing left."  src="/assets/images/shared/first.svg" alt="Go To First">
 	</a>
@@ -681,7 +377,10 @@ Robot, angrily: Your foolish human prattle is reducing my duckficiency! LAUNCHIN
 <a class="comicNavButton comicNavRandom" href="/random.html" title="Random">
 	<img class="comicNavArrow" alt="A single die." src="/assets/images/shared/random.svg" alt="Random">
 </a>
+
+
 <div class="comicNavRight">
+
 	<a class="comicNavButton comicNavNext" href="/2024/08/28/" title="Next">
 		<img class="comicNavArrow"  alt="Single arrow pointing right."src="/assets/images/shared/next.svg" alt="Next">
 	</a>
